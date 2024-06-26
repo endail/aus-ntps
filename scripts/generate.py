@@ -48,7 +48,7 @@ for file in glob.glob("src/*.json"):
           
       srvresult["endpoints"].append(eptresult)
     listresult["servers"].append(srvresult)
-  results.append(srvresult)
+  results.append(listresult)
   
 
 # print results
