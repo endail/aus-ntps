@@ -1,0 +1,67 @@
+{
+  "description": "A collection of Internet Service Provider NTP servers",
+  "servers": [
+    {
+      "name": "Exetel",
+      "endpoints": [
+        "clock.exetel.com.au"
+      ]
+    },
+    {
+      "name": "Telstra",
+      "endpoints": [
+        {
+          "chronos.ntp.telstra.net",
+          "chronos1.ntp.telstra.net",
+          "tic.ntp.telstra.net",
+          "toc.ntp.telstra.net"
+        }
+      ]
+    },
+    {
+      "name": "TPG",
+      "endpoints": [
+        "ntp1.tpg.com.au",
+        "ntp2.tpg.com.au"
+      ]
+    },
+    {
+      "name": "Optus",
+      "endpoints": [
+        "time.optusnet.com.au",
+        "time01.mel.optus.net",
+        "time02.mel.optus.net"
+      ]
+    },
+    {
+      "name": "iiNet",
+      "endpoints": [
+        "time.iinet.net.au",
+        "ntp.iinet.net.au",
+        "ntp.ii.net",
+        "ntp1.iinet.net.au",
+        "ntp2.iinet.net.au"
+      ]
+    },
+    {
+      "name": "Internode",
+      "endpoints": [
+        "ntp.internode.on.net"
+      ]
+    },
+    {
+      "name": "iPrimus",
+      "endpoints": [
+        "ntp.iprimus.com.au"
+      ]
+    },
+    {
+      "name": "Vocus",
+      "endpoints": [
+        "ntp.vocus.network",
+        "ntp01.vic.vocus.network",
+        "ntp02.vic.vocus.network"
+      ]
+    }
+  ]
+}
