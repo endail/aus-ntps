@@ -1,6 +1,6 @@
 {
-  "name": "Other organisations",
-  "description": "Other organisations",
+  "name": "Organisations",
+  "description": "Other organisations not under other another category",
   "servers": [
     {
       "name": "Internet Association of Australia",
