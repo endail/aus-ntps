@@ -16,15 +16,21 @@ for file in glob.glob("src/*.json"):
     for endpoint in server["endpoints"]:
       print("Checking " + endpoint + "...")
 
-      result = subprocess.run(["nslookup", endpoint, "1.1.1.1"], capture_output=True, text=True, timeout=5)
-      print("DNS: " + "OK" if result.returncode == 0 else "Fail")
-
+      try:
+        result = subprocess.run(["nslookup", endpoint, "1.1.1.1"], capture_output=True, text=True, timeout=5)
+        print("DNS: " + "OK" if result.returncode == 0 else "Fail")
+      except TimeoutExpired:
+        print("Timeout")
+        
       if result.returncode != 0:
         continue
 
-      result = subprocess.run(["ntpdig", "-j", "-t 5", endpoint], capture_output=True, text=True, timeout=5)
-      print("ntpdig success?: " + "Yes" if result.returncode == 0 else "No")
-
+      try:
+        result = subprocess.run(["ntpdig", "-j", "-t 5", endpoint], capture_output=True, text=True, timeout=5)
+        print("ntpdig success?: " + "Yes" if result.returncode == 0 else "No")
+      except TimeoutExpired:
+        print("Timeout")
+      
       if result.returncode != 0:
         continue
         
