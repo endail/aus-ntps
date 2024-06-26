@@ -1,7 +1,7 @@
 name: generate-table-action
-
 on: [workflow_dispatch]
-
+permissions:
+  contents: write
 jobs:
   build:
     name: generate
@@ -19,5 +19,6 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com";
           python3 scripts/generate.py;
           git add -A;
+          git commit -am "update table";
           git push;
         
