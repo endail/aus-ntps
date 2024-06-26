@@ -71,7 +71,7 @@ with open("README.md", "w") as readme:
     for srv in list["servers"]:
       readme.write("### " + srv["name"] + "\n")
       readme.write("| Endpoint                           | DNS? | IP               | Stratum |\n")
-      readme.write("| :--------------------------------- | ---: | ---------------: |    ---: |\n")
+      readme.write("| :--------------------------------- | ---: | :--------------- | ------: |\n")
       
       # sort by endpoint
       srv["endpoints"].sort(key=lambda e: e["endpoint"])
