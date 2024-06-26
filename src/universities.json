@@ -58,6 +58,12 @@
         "ns3.anu.edu.au",
         "ns4.anu.edu.au"
       ]
+    },
+    {
+      "name": "Christ Church Grammar School (Western Australia)",
+      "endpoints": [
+        "leontp.ccgs.wa.edu.au"
+      ]
     }
   ]
 }
