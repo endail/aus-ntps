@@ -29,5 +29,5 @@ for file in glob.glob("src/*.json"):
         continue
         
       ntpout = json.loads(result.stdout)
-      print("Host: %s, IP: %s, Stratum: %s" % (ntpout["host"], ntpout["ip"], ntpout["stratum"))
+      print("Host: %s, IP: %s, Stratum: %s" % (ntpout["host"], ntpout["ip"], ntpout["stratum"]))
         
