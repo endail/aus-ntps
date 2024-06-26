@@ -55,11 +55,11 @@ with open("README.md", "w") as readme:
   readme.write(open("README-header.md", "r").read())
   
   for list in results:
-    readme.write("##" + list["name"] + "\n")
+    readme.write("## " + list["name"] + "\n")
     readme.write(list["description"] + "\n")
     
     for srv in list["servers"]:
-      readme.write("###" + srv["name"] + "\n")
+      readme.write("### " + srv["name"] + "\n")
       readme.write("|Endpoint|DNS Resolved|IP|Stratum|\n")
       readme.write("|--------|------------|--|-------|\n")
     
