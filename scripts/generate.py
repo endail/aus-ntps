@@ -19,7 +19,7 @@ for file in glob.glob("src/*.json"):
       try:
         result = subprocess.run(["nslookup", endpoint, "1.1.1.1"], capture_output=True, text=True, timeout=5)
         print("DNS: " + "OK" if result.returncode == 0 else "Fail")
-      except TimeoutExpired:
+      except subprocess.TimeoutExpired:
         print("Timeout")
         
       if result.returncode != 0:
@@ -28,7 +28,7 @@ for file in glob.glob("src/*.json"):
       try:
         result = subprocess.run(["ntpdig", "-j", "-t 5", endpoint], capture_output=True, text=True, timeout=5)
         print("ntpdig success?: " + "Yes" if result.returncode == 0 else "No")
-      except TimeoutExpired:
+      except subprocess.TimeoutExpired:
         print("Timeout")
       
       if result.returncode != 0:
