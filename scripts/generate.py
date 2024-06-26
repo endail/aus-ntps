@@ -25,7 +25,7 @@ for file in glob.glob("src/*.json"):
       result = subprocess.run(["ntpdig", "-j", "-t 5", endpoint], timeout=5)
       print("ntpdig success?: " + "Yes" if result.returncode == 0 else "No")
 
-      if result.returncode != 0
+      if result.returncode != 0:
         continue
         
       ntpout = json.loads(result.stdout)
