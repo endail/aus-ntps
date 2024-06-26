@@ -11,10 +11,10 @@ def resolvedns(endpoint):
 def ntpdig(endpoint):
   print("ntpdigging " + endpoint)
   result = subprocess.run(
-    ["ntpdig", "-j", "-t 5", endpoint],
+    ["ntpdig", "-j", "-t 3", endpoint],
     capture_output=True,
     text=True,
-    timeout=5)
+    timeout=3)
   print(result.stdout)
   return json.loads(result.stdout)
 
@@ -74,15 +74,15 @@ with open("README.md", "w") as readme:
     
     for srv in list["servers"]:
       readme.write("### " + srv["name"] + "\n")
-      readme.write("| Endpoint                           | DNS? | IP               | Stratum |\n")
-      readme.write("| :--------------------------------- | ---: | :--------------- | ------: |\n")
+      readme.write("| Endpoint                           | A/AAAA | IP               | Stratum |\n")
+      readme.write("| :--------------------------------- | -----: | :--------------- | ------: |\n")
       
       # sort by endpoint
       srv["endpoints"].sort(key=lambda e: e["endpoint"])
       
       for ept in srv["endpoints"]:
         readme.write("|" + ept["endpoint"])
-        readme.write("|" + "Y" if ept["dns"] else "N")
+        readme.write("|" + ("Y" if ept["dns"] else "N"))
         if ept["ntp"] is not None:
           readme.write("|" + ept["ntp"]["ip"])
           readme.write("|" + str(ept["ntp"]["stratum"]))
