@@ -48,10 +48,10 @@ for file in glob.glob("src/*.json"):
 for list in results:
   print("List name: " + list.name)
   print("List description: " + list.description)
-  print()
-  for(srv in list.endpoints):
+  print("")
+  for srv in list.servers:
     print("\tServer name: " + srv.name)
-    for(ept in srv.endpoints):
+    for ept in srv.endpoints:
       print("\t\t" + ept.endpoint)
       print("\t\t\t" + ept.dns)
       print("\t\t\t" + ept.ip)
