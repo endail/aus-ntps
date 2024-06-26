@@ -60,9 +60,12 @@ for list in results:
     print("\tServer name: " + srv["name"])
     for ept in srv["endpoints"]:
       print("\t\t" + ept["endpoint"])
-      print("\t\t\t" + ept["dns"])
-      print("\t\t\t" + ept["ip"])
-      print("\t\t\t" + ept["stratum"])
+      print("\t\t\tResolved?: " + "Yes" if ept["dns"] else "No")
+      if ept["ntp"] is not None:
+        print("\t\t\tIP: " + ept["ntp"]["ip"])
+        print("\t\t\tStratum: " + ept["ntp"]["stratum"])
+      else:
+        print("\t\t\tNTP details unavailable")
       print("")
     print("")
   print("")
