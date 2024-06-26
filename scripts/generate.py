@@ -30,12 +30,14 @@ for file in glob.glob("src/*.json"):
       eptresult = { "endpoint": endpoint, "dns": False, "ntp": None }
       
       if resolvedns(endpoint):
-        eptresult.dns = True
+        eptresult["dns"] = True
         
         try:
           dig = ntpdig(endpoint)
-          eptresult.ntp.stratum = dig.stratum
-          eptresult.ntp.ip = dig.ip
+          eptresult["ntp"] = {
+            "stratum": dig["stratum"],
+            "ip": dig["dig"]["ip"]
+          }
         except:
           print("ntpdig failed for " + endpoint)
       
@@ -46,19 +48,19 @@ for file in glob.glob("src/*.json"):
 
 # print results
 for list in results:
-  print("List name: " + list.name)
-  print("List description: " + list.description)
+  print("List name: " + list["name"])
+  print("List description: " + list["description"])
   print("")
-  for srv in list.servers:
-    print("\tServer name: " + srv.name)
-    for ept in srv.endpoints:
-      print("\t\t" + ept.endpoint)
-      print("\t\t\t" + ept.dns)
-      print("\t\t\t" + ept.ip)
-      print("\t\t\t" + ept.stratum)
-      print()
-    print()
-  print()
+  for srv in list["servers"]:
+    print("\tServer name: " + srv["name"])
+    for ept in srv["endpoints"]:
+      print("\t\t" + ept["endpoint"])
+      print("\t\t\t" + ept["dns"])
+      print("\t\t\t" + ept["ip"])
+      print("\t\t\t" + ept["stratum"])
+      print("")
+    print("")
+  print("")
 
 print("DONE!")
   
