@@ -60,8 +60,8 @@ with open("README.md", "w") as readme:
     
     for srv in list["servers"]:
       readme.write("### " + srv["name"] + "\n")
-      readme.write("|Endpoint|DNS Resolved|IP|Stratum|\n")
-      readme.write("|--------|------------|--|-------|\n")
+      readme.write("| Endpoint                | DNS Resolved | IP    | Stratum |\n")
+      readme.write("| :---                    | ---:         | :---: |    ---: |\n")
     
       for ept in srv["endpoints"]:
         readme.write("|" + ept["endpoint"])
