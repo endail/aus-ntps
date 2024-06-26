@@ -4,6 +4,8 @@ import subprocess
 
 for file in glob.glob("src/*.json"):
 
+  print("Opening " + file)
+  
   f = open(file)
   data = json.load(f)
   f.close()
