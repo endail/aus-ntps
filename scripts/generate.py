@@ -87,7 +87,8 @@ with open("README.md", "w") as readme:
           readme.write("|" + ept["ntp"]["ip"])
           readme.write("|" + str(ept["ntp"]["stratum"]))
         else:
-          readme.write("|||\n")
+          readme.write("|||")
+        readme.write("\n")
             
       readme.write("\n")
     readme.write("\n")
