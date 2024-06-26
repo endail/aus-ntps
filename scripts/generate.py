@@ -63,15 +63,15 @@ with open("README.md", "w") as readme:
       readme.write("|Endpoint|DNS Resolved|IP|Stratum|\n")
       readme.write("|--------|------------|--|-------|\n")
     
-        for ept in srv["endpoints"]:
-          readme.write("|" + ept["endpoint"])
-          readme.write("|" + "Y" if ept["dns"] else "N")
-          if ept["ntp"] is not None:
-            readme.write("|" + ept["ntp"]["ip"})
-            readme.write("|" + ept["ntp"]["stratum"])
-          else:
-            readme.write("|N/A|N/A")
-            readme.write("|\n")
+      for ept in srv["endpoints"]:
+        readme.write("|" + ept["endpoint"])
+        readme.write("|" + "Y" if ept["dns"] else "N")
+        if ept["ntp"] is not None:
+          readme.write("|" + ept["ntp"]["ip"})
+          readme.write("|" + ept["ntp"]["stratum"])
+        else:
+          readme.write("|N/A|N/A")
+          readme.write("|\n")
             
       readme.write("\n")
     readme.write("\n")
