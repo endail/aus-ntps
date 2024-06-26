@@ -1,4 +1,5 @@
 {
+  "name": "ISPs",
   "description": "Internet Service Providers",
   "servers": [
     {
