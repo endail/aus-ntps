@@ -16,7 +16,7 @@ for file in glob.glob("src/*.json"):
     for endpoint in server["endpoints"]:
       print("Checking " + endpoint + "...")
 
-      result = subprocess.run(["nslookup", endpoint, "1.1.1.1"], timeout=5)
+      result = subprocess.run(["nslookup", endpoint, "1.1.1.1"], capture_output=True, text=True, timeout=5)
       print("DNS: " + "OK" if result.returncode == 0 else "Fail")
 
       if result.returncode != 0:
