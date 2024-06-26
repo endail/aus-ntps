@@ -10,12 +10,10 @@
     {
       "name": "Telstra",
       "endpoints": [
-        {
-          "chronos.ntp.telstra.net",
-          "chronos1.ntp.telstra.net",
-          "tic.ntp.telstra.net",
-          "toc.ntp.telstra.net"
-        }
+        "chronos.ntp.telstra.net",
+        "chronos1.ntp.telstra.net",
+        "tic.ntp.telstra.net",
+        "toc.ntp.telstra.net"
       ]
     },
     {
