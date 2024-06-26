@@ -1,0 +1,22 @@
+name: generate-table-action
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    name: generate
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repo
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
+
+      - run: |
+          git config --global user.name "github-actions[bot]";
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com";
+          python3 scripts/generate.py;
+          git add -A;
+          git push;
+        
