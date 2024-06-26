@@ -1,0 +1,63 @@
+{
+  "description": "University and related Institutions",
+  "servers": [
+    {
+      "name": "University of Western Australia",
+      "endpoints": [
+        "time.uwa.edu.au"
+      ]
+    },
+    {
+      "name": "University of Adelaide",
+      "endpoints": [
+        "ntp.adelaide.edu.au"
+      ]
+    },
+    {
+      "name": "University of New England",
+      "endpoints": [
+        "ntp.une.edu.au",
+        "tick.une.edu.au",
+        "tock.une.edu.au"
+      ]
+    },
+    {
+      "name": "RMIT University",
+      "endpoints": [
+        "time.rmit.edu.au"
+      ]
+    },
+    {
+      "name": "University of Melbourne",
+      "endpoints": [
+        "ntp.unimelb.edu.au",
+        "ntp1.unimelb.edu.au",
+        "ntp2.unimelb.edu.au"
+      ]
+    },
+    {
+      "name": "Deakin University",
+      "endpoints": [
+        "ns1.deakin.edu.au",
+        "ns2.deakin.edu.au"
+      ]
+    },
+    {
+      "name": "Monash University",
+      "endpoints": [
+        "ntp1.net.monash.edu.au",
+        "ntp2.net.monash.edu.au"
+      ]
+    },
+    {
+      "name": "Australian National University",
+      "endpoints": [
+        "ntp.anu.edu.au",
+        "ns1.anu.edu.au",
+        "ns2.anu.edu.au",
+        "ns3.anu.edu.au",
+        "ns4.anu.edu.au"
+      ]
+    }
+  ]
+}
