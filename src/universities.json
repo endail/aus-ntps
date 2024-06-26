@@ -1,6 +1,6 @@
 {
-  "name": "Universities and related Institutions",
-  "description": "Universities, Colleges, TAFEs, etc...",
+  "name": "Universities",
+  "description": "Universities, Colleges, TAFEs, and other related institutions",
   "servers": [
     {
       "name": "University of Western Australia",
