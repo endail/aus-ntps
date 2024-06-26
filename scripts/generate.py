@@ -67,8 +67,8 @@ with open("README.md", "w") as readme:
         readme.write("|" + ept["endpoint"])
         readme.write("|" + "Y" if ept["dns"] else "N")
         if ept["ntp"] is not None:
-          readme.write("|" + ept["ntp"]["ip"})
-          readme.write("|" + ept["ntp"]["stratum"])
+          readme.write("|" + ept["ntp"]["ip"])
+          readme.write("|" + str(ept["ntp"]["stratum"]))
         else:
           readme.write("|N/A|N/A")
           readme.write("|\n")
