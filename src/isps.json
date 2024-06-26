@@ -1,5 +1,5 @@
 {
-  "description": "A collection of Internet Service Provider NTP servers",
+  "description": "Internet Service Providers",
   "servers": [
     {
       "name": "Exetel",
