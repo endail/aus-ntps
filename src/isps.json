@@ -3,7 +3,13 @@
   "description": "Internet Service Providers",
   "servers": [
     {
-      "name" "Aussie Broadband",
+      "name": "Spintel",
+      "endpoints": [
+        "203.23.237.200"
+      ]
+    },
+    {
+      "name": "Aussie Broadband",
       "endpoints": [
         "ntp-bne.aussiebroadband.com.au",
         "ntp-syd.aussiebroadband.com.au",
