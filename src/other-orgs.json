@@ -1,0 +1,18 @@
+{
+  "description": "Other organisations",
+  "servers": [
+    {
+      "name": "Internet Association of Australia",
+      "endpoints": [
+        "ntp.waia.asn.au"
+      ]
+    },
+    {
+      "name": "connect.com.au",
+      "endpoints": [
+        "ntp.connect.com.au",
+        "ntp.mel.connect.com.au"
+      ]
+    }
+  ]
+}
