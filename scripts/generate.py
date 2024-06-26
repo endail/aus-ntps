@@ -9,11 +9,13 @@ def resolvedns(endpoint):
     text=True).returncode == 0
 
 def ntpdig(endpoint):
+  print("ntpdigging " + endpoint)
   result = subprocess.run(
     ["ntpdig", "-j", "-t 5", endpoint],
     capture_output=True,
     text=True,
     timeout=5)
+  print(result.stdout)
   return json.loads(result.stdout)
 
 
@@ -34,6 +36,7 @@ for file in glob.glob("src/*.json"):
         
         try:
           dig = ntpdig(endpoint)
+          print(dig)
           eptresult["ntp"] = {
             "stratum": dig["stratum"],
             "ip": dig["dig"]["ip"]
