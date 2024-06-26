@@ -22,7 +22,7 @@ for file in glob.glob("src/*.json"):
       if result.returncode != 0:
         continue
 
-      result = subprocess.run(["ntpdig", "-j", "-t 5", endpoint, timeout=5])
+      result = subprocess.run(["ntpdig", "-j", "-t 5", endpoint], timeout=5)
       print("ntpdig success?: " + "Yes" if result.returncode == 0 else "No")
 
       if result.returncode != 0
