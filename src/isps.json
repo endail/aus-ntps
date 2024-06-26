@@ -3,6 +3,16 @@
   "description": "Internet Service Providers",
   "servers": [
     {
+      "name" "Aussie Broadband",
+      "endpoints": [
+        "ntp-bne.aussiebroadband.com.au",
+        "ntp-syd.aussiebroadband.com.au",
+        "ntp-mel.aussiebroadband.com.au",
+        "ntp-adl.aussiebroadband.com.au",
+        "ntp-per.aussiebroadband.com.au"
+      ]
+    },
+    {
       "name": "Exetel",
       "endpoints": [
         "clock.exetel.com.au"
