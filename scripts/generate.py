@@ -49,26 +49,47 @@ for file in glob.glob("src/*.json"):
       srvresult["endpoints"].append(eptresult)
     listresult["servers"].append(srvresult)
   results.append(listresult)
-  
 
-# print results
-for list in results:
-  print("List name: " + list["name"])
-  print("List description: " + list["description"])
-  print("")
-  for srv in list["servers"]:
-    print("\tServer name: " + srv["name"])
-    for ept in srv["endpoints"]:
-      print("\t\t" + ept["endpoint"])
-      print("\t\t\tResolved?: " + "Yes" if ept["dns"] else "No")
-      if ept["ntp"] is not None:
-        print("\t\t\tIP: " + ept["ntp"]["ip"])
-        print("\t\t\tStratum: " + str(ept["ntp"]["stratum"]))
-      else:
-        print("\t\t\tNTP details unavailable")
-      print("")
-    print("")
-  print("")
+
+with open("README.md", "w") as readme:
+  readme.write(open("README-header.md", "r").read())
+  
+  for list in results:
+    readme.write("##" + list["name"] + "\n")
+    readme.write(list["description"] + "\n")
+    
+      for srv in list["servers"]:
+        readme.write("###" + srv["name"] + "\n")
+        readme.write("|Endpoint|DNS Resolved|IP|Stratum|\n")
+        readme.write("|--------|------------|--|-------|\n")
+
+          for ept in srv["endpoints"]:
+            readme.write("|" + ept["endpoint"])
+            readme.write("|" + "Y" if ept["dns"] else "N")
+            if ept["ntp"] is not None:
+              readme.write("|" + ept["ntp"]["ip"})
+              readme.write("|" + ept["ntp"]["stratum"])
+            else:
+              readme.write("|N/A|N/A")
+            readme.write("|\n")
+      
+    
+  #print("List name: " + list["name"])
+  #print("List description: " + list["description"])
+  #print("")
+  #for srv in list["servers"]:
+  #  print("\tServer name: " + srv["name"])
+  #  for ept in srv["endpoints"]:
+  #    print("\t\t" + ept["endpoint"])
+  #    print("\t\t\tResolved?: " + "Yes" if ept["dns"] else "No")
+  #    if ept["ntp"] is not None:
+  #      print("\t\t\tIP: " + ept["ntp"]["ip"])
+  #      print("\t\t\tStratum: " + str(ept["ntp"]["stratum"]))
+  #    else:
+  #      print("\t\t\tNTP details unavailable")
+  #    print("")
+  #  print("")
+  #print("")
 
 print("DONE!")
   
