@@ -51,18 +51,31 @@ for file in glob.glob("src/*.json"):
   results.append(listresult)
 
 
+
+
+
+
 with open("README.md", "w") as readme:
   readme.write(open("README-header.md", "r").read())
+
+  # sort by list name
+  results.sort(key=lambda l: l["name"])
   
   for list in results:
     readme.write("## " + list["name"] + "\n")
     readme.write(list["description"] + "\n")
+
+    # sort by server name
+    list["servers"].sort(key=lambda s: s["name"])
     
     for srv in list["servers"]:
       readme.write("### " + srv["name"] + "\n")
-      readme.write("| Endpoint                | DNS Resolved | IP    | Stratum |\n")
-      readme.write("| :---                    |         ---: |  ---: |    ---: |\n")
-    
+      readme.write("| Endpoint                           | DNS? | IP               | Stratum |\n")
+      readme.write("| :--------------------------------- | ---: | ---------------: |    ---: |\n")
+      
+      # sort by endpoint
+      srv["endpoints"].sort(key=lambda e: e["endpoint"])
+      
       for ept in srv["endpoints"]:
         readme.write("|" + ept["endpoint"])
         readme.write("|" + "Y" if ept["dns"] else "N")
