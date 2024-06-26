@@ -3,6 +3,85 @@
   "description": "Universities, Colleges, TAFEs, and other related institutions",
   "servers": [
     {
+      "name": "University of the Sunshine Coast",
+      "endpoints": [
+        "ntp.usc.edu.au",
+        "ntp1.usc.edu.au",
+        "ntp2.usc.edu.au",
+        "ntp3.usc.edu.au",
+        "ntp4.usc.edu.au",
+      ]
+    },
+    {
+      "name": "University of Canberra",
+      "endpoints": [
+        "ntp.canberra.edu.au",
+        "ntp1.canberra.edu.au",
+        "ntp2.canberra.edu.au",
+        "ntp3.canberra.edu.au",
+        "ntp4.canberra.edu.au"
+      ]
+    },
+    {
+      "name": "University of Wollongong",
+      "endpoints": [
+        "ntp.uow.edu.au"
+      ]
+    },
+    {
+      "name": "Macquarie University",
+      "endpoints": [
+        "ntp.mq.edu.au",
+        "ntp1.mq.edu.au",
+        "ntp2.mq.edu.au",
+        "ntp3.mq.edu.au",
+        "ntp4.mq.edu.au",
+        "ntp5.mq.edu.au",
+        "time.mq.edu.au"
+      ]
+    },
+    {
+      "name": "University of Queensland",
+      "endpoints": [
+        "ntp.uq.edu.au",
+        "ntp1.uq.edu.au",
+        "ntp2.uq.edu.au"
+      ]
+    },
+    {
+      "name": "University of New South Wales",
+      "endpoints": [
+        "ntp.unsw.edu.au",
+        "ntp1.unsw.edu.au",
+        "ntp2.unsw.edu.au",
+        "ntp3.unsw.edu.au"
+      ]
+    },
+    {
+      "name": "University of Technology Sydney",
+      "endpoints": [
+        "time.uts.edu.au"
+      ]
+    },
+    {
+      "name": "University of Divinity",
+      "endpoints": [
+        "time.divinity.edu.au"
+      ]
+    },
+    {
+      "name": "LaTrobe University",
+      "endpoints": [
+        "ntp.latrobe.edu.au"
+      ]
+    },
+    {
+      "name": "Federation University",
+      "endpoints": [
+        "time.federation.edu.au"
+      ]
+    },
+    {
       "name": "University of Western Australia",
       "endpoints": [
         "time.uwa.edu.au"
