@@ -21,13 +21,13 @@ results = []
 
 for file in glob.glob("src/*.json"):
   with open(file) as f: data = json.load(f)
-  listresult = { name: data["name"], description: data["description"], servers: [] }
+  listresult = { "name": data["name"], "description": data["description"], "servers": [] }
   
   for server in data["servers"]:
-    srvresult = { name: server["name"], endpoints: [] }
+    srvresult = { "name": server["name"], "endpoints": [] }
     
     for endpoint in server["endpoints"]:
-      eptresult = { endpoint: endpoint, dns: False, ntp: None }
+      eptresult = { "endpoint": endpoint, "dns": False, "ntp": None }
       
       if resolvedns(endpoint):
         eptresult.dns = True
