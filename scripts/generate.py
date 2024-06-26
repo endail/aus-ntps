@@ -60,10 +60,13 @@ with open("README.md", "w") as readme:
 
   # sort by list name
   results.sort(key=lambda l: l["name"])
+
+  readme.write("## Table of Contents\n")
+  for list in results:
+    readme.write("- [" + list["name"] + "](#" + list["name"] + ")\n") 
   
   for list in results:
     readme.write("## " + list["name"] + "\n")
-    readme.write(list["description"] + "\n")
 
     # sort by server name
     list["servers"].sort(key=lambda s: s["name"])
