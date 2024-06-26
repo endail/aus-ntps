@@ -41,8 +41,8 @@ for file in glob.glob("src/*.json"):
         except:
           print("ntpdig failed for " + endpoint)
       
-      srvresult.endpoints.append(eptresult)
-    listresult.servers.append(srvresult)
+      srvresult["endpoints"].append(eptresult)
+    listresult["servers"].append(srvresult)
   results.append(srvresult)
   
 
