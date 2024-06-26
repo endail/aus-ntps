@@ -1,5 +1,6 @@
 {
-  "description": "University and related Institutions",
+  "name": "Universities and related Institutions",
+  "description": "Universities, Colleges, TAFEs, etc...",
   "servers": [
     {
       "name": "University of Western Australia",
