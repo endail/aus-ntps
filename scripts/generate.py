@@ -63,7 +63,7 @@ for list in results:
       print("\t\t\tResolved?: " + "Yes" if ept["dns"] else "No")
       if ept["ntp"] is not None:
         print("\t\t\tIP: " + ept["ntp"]["ip"])
-        print("\t\t\tStratum: " + ept["ntp"]["stratum"])
+        print("\t\t\tStratum: " + str(ept["ntp"]["stratum"]))
       else:
         print("\t\t\tNTP details unavailable")
       print("")
