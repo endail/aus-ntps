@@ -21,6 +21,7 @@ for file in glob.glob("src/*.json"):
         print("DNS: " + "OK" if result.returncode == 0 else "Fail")
       except subprocess.TimeoutExpired:
         print("Timeout")
+        continue
         
       if result.returncode != 0:
         continue
@@ -30,6 +31,7 @@ for file in glob.glob("src/*.json"):
         print("ntpdig success?: " + "Yes" if result.returncode == 0 else "No")
       except subprocess.TimeoutExpired:
         print("Timeout")
+        continue
       
       if result.returncode != 0:
         continue
