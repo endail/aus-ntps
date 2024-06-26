@@ -1,4 +1,5 @@
 {
+  "name": "Others",
   "description": "Others",
   "servers": [
     { "name": "", "endpoints": [ "syd4gps0.syd.ops.aspac.uu.net" ] },
