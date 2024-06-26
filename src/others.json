@@ -1,7 +1,7 @@
 {
   "description": "Others",
   "servers": [
-    { : "", "endpoints": [ "syd4gps0.syd.ops.aspac.uu.net" ] },
+    { "name": "", "endpoints": [ "syd4gps0.syd.ops.aspac.uu.net" ] },
     { "name": "", "endpoints": [ "vk6hgr.echidna.id.au" ] },
     { "name": "", "endpoints": [ "web02.anfiuwp.org.au" ] },
     { "name": "", "endpoints": [ "gw.vk6hgr.echidna.id.au" ] },
