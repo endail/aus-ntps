@@ -39,11 +39,13 @@ for file in glob.glob("src/*.json"):
           print(dig)
           eptresult["ntp"] = {
             "stratum": dig["stratum"],
-            "ip": dig["dig"]["ip"]
+            "ip": dig["ip"]
           }
-        except:
-          print("ntpdig failed for " + endpoint)
-      
+        except subprocess.TimeoutExpired:
+          print("ntpdig timed out for " + endpoint)
+        except json.JSONDecodeError:
+          print("failed to parse json for " + endpoint)
+          
       srvresult["endpoints"].append(eptresult)
     listresult["servers"].append(srvresult)
   results.append(srvresult)
