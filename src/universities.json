@@ -5,6 +5,15 @@
     {
       "name": "Western Sydney University",
       "endpoints": [
+        "ntp.uws.edu.au",
+        "ntp1.uws.edu.au",
+        "ntp2.uws.edu.au",
+        "time.uws.edu.au",
+        "ns.uws.edu.au",
+        "ns1.uws.edu.au",
+        "ns2.uws.edu.au",
+        "ns3.uws.edu.au",
+        "ns4.uws.edu.au",
         "ntp.westernsydney.edu.au",
         "ntp2.westernsydney.edu.au",
         "time.westernsydney.edu.au",
@@ -35,6 +44,8 @@
     {
       "name": "University of Sydney",
       "endpoints": [
+        "ntp.usyd.edu.au",
+        "ntp2.usyd.edu.au"
       ]
     },
     {
