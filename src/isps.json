@@ -61,6 +61,8 @@
     {
       "name": "Internode",
       "endpoints": [
+        "ntp.on.net",
+        "ns2.on.net",
         "ntp.internode.on.net"
       ]
     },
