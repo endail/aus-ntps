@@ -3,6 +3,53 @@
   "description": "Other organisations not under other another category",
   "servers": [
     {
+      "name": "Cynergic",
+      "endpoints": [
+        "ns2.cynergic.com.au",
+        "ns3.cynergic.com.au"
+      ]
+    },
+    {
+      "name": "Conexim",
+      "endpoints": [
+        "time.conexim.com.au",
+        "ns.conexim.com.au",
+        "ns1.conexim.com.au"
+      ]
+    },
+    {
+      "name": "Comvergence",
+      "endpoints": [
+        "ntp.comvergence.com.au",
+        "time.comvergence.com.au"
+      ]
+    },
+    {
+      "name": "Sky News Australia",
+      "endpoints": [
+        "ns.skynews.com.au"
+      ]
+    },
+    {
+      "name": "Australia Online",
+      "endpoints": [
+        "ntp.australiaonline.net.au",
+        "time.australiaonline.net.au"
+      ]
+    },
+    {
+      "name": "ASE IT Networks",
+      "endpoints": [
+        "time.aseit.com.au"
+      ]
+    },
+    {
+      "name": "APCS",
+      "endpoints": [
+        "ns1.apcs.com.au"
+      ]
+    },
+    {
       "name": "Dedicated Servers",
       "endpoints": [
         "ntp.dedicatedservers.net.au"
