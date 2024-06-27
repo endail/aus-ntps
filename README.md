@@ -41,7 +41,7 @@ Internet Service Providers
 ### Exetel
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|clock.exetel.com.au|Y|220.233.0.50|3
+|clock.exetel.com.au|Y|220.233.0.50|4
 
 ### Internode
 | Endpoint                           | A/AAAA | IP               | Stratum |
@@ -58,7 +58,7 @@ Internet Service Providers
 ### Spintel
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|203.23.237.200|N|||
+|203.23.237.200|Y|203.23.237.200|2
 
 ### TPG
 | Endpoint                           | A/AAAA | IP               | Stratum |
@@ -77,22 +77,22 @@ Internet Service Providers
 ### Vocus
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|ntp.vocus.network|Y|210.50.30.220|2
+|ntp.vocus.network|Y|||
 |ntp01.vic.vocus.network|Y|210.50.117.21|2
 |ntp02.vic.vocus.network|Y|211.26.226.21|2
 
 ### iPrimus
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|ntp.iprimus.com.au|Y|210.50.30.220|2
+|ntp.iprimus.com.au|Y|||
 
 ### iiNet
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
 |ntp.ii.net|Y|203.0.178.191|3
 |ntp.iinet.net.au|Y|203.0.178.191|3
-|ntp1.iinet.net.au|Y|203.0.178.191|2
-|ntp2.iinet.net.au|Y|203.0.178.191|2
+|ntp1.iinet.net.au|Y|203.0.178.191|3
+|ntp2.iinet.net.au|Y|203.0.178.191|3
 |time.iinet.net.au|Y|203.0.178.191|3
 
 
@@ -220,19 +220,77 @@ Other individual servers not tied to a multi-server organisation
 
 ## Universities
 Universities, Colleges, TAFEs, and other related institutions
+### Australian Catholic University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns.acu.edu.au|Y|||
+|ns0.acu.edu.au|Y|||
+|ns2.acu.edu.au|Y|||
+
 ### Australian National University
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|chronos.anu.edu.au|Y|||
 |ns1.anu.edu.au|Y|150.203.1.10|3
 |ns2.anu.edu.au|Y|150.203.22.28|3
 |ns3.anu.edu.au|Y|||
 |ns4.anu.edu.au|Y|||
 |ntp.anu.edu.au|Y|150.203.1.10|3
+|ntp1.anu.edu.au|Y|150.203.1.10|3
+|ntp2.anu.edu.au|Y|150.203.22.28|3
+|ntp3.anu.edu.au|N|||
+
+### Avondale University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns0.avondale.edu.au|Y|||
+|ns1.avondale.edu.au|Y|||
+
+### Bond University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.bond.edu.au|Y|||
+
+### CQ University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.cqu.edu.au|Y|||
+|ns2.cqu.edu.au|Y|||
+|ntp.cqu.edu.au|Y|||
+|ntp1.cqu.edu.au|Y|||
+|ntp2.cqu.edu.au|Y|||
+|ntp3.cqu.edu.au|Y|||
+|ntp4.cqu.edu.au|Y|||
+
+### Charles Darwin University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.cdu.edu.au|Y|||
+|ns2.cdu.edu.au|Y|||
+|ntp.cdu.edu.au|Y|||
+|ntp1.cdu.edu.au|Y|||
+|ntp2.cdu.edu.au|Y|||
+|ntp3.cdu.edu.au|Y|||
+
+### Charles Sturt University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns.csu.edu.au|Y|||
+|ntp.csu.edu.au|Y|||
 
 ### Christ Church Grammar School (Western Australia)
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
 |leontp.ccgs.wa.edu.au|Y|203.135.184.123|1
+
+### Curtin University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.curtin.edu.au|Y|||
+|ns2.curtin.edu.au|Y|||
+|ns3.curtin.edu.au|Y|||
+|ntp.curtin.edu.au|Y|||
+|time.curtin.edu.au|Y|||
 
 ### Deakin University
 | Endpoint                           | A/AAAA | IP               | Stratum |
@@ -240,15 +298,53 @@ Universities, Colleges, TAFEs, and other related institutions
 |ns1.deakin.edu.au|Y|128.184.218.53|3
 |ns2.deakin.edu.au|Y|128.184.34.53|3
 
+### Edith Cowan University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.ecu.edu.au|Y|||
+|ns2.ecu.edu.au|Y|||
+|ntp.ecu.edu.au|Y|||
+|ntp1.ecu.edu.au|Y|||
+|ntp2.ecu.edu.au|Y|||
+
 ### Federation University
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
 |time.federation.edu.au|Y|||
 
+### Flinders University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.flinders.edu.au|Y|||
+
+### Griffith University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.griffith.edu.au|Y|132.234.1.1|3
+
+### James Cook University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns.jcu.edu.au|Y|||
+|ns1.jcu.edu.au|Y|||
+|ns2.jcu.edu.au|Y|||
+|ns3.jcu.edu.au|Y|||
+|ns4.jcu.edu.au|Y|||
+|ntp.jcu.edu.au|Y|||
+|ntp1.jcu.edu.au|Y|||
+|ntp2.jcu.edu.au|Y|||
+
 ### LaTrobe University
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns0.latrobe.edu.au|Y|||
+|ns1.latrobe.edu.au|Y|||
+|ns2.latrobe.edu.au|Y|||
+|ns3.latrobe.edu.au|Y|||
 |ntp.latrobe.edu.au|Y|||
+|ntp1.latrobe.edu.au|Y|||
+|ntp2.latrobe.edu.au|Y|||
+|ntp4.latrobe.edu.au|Y|||
 
 ### Macquarie University
 | Endpoint                           | A/AAAA | IP               | Stratum |
@@ -264,22 +360,76 @@ Universities, Colleges, TAFEs, and other related institutions
 ### Monash University
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.monash.edu.au|Y|||
+|ns2.monash.edu.au|Y|||
+|ns3.monash.edu.au|Y|||
+|ns4.monash.edu.au|Y|||
+|ntp.monash.edu.au|Y|||
+|ntp1.monash.edu.au|Y|||
 |ntp1.net.monash.edu.au|Y|130.194.1.123|1
+|ntp2.monash.edu.au|Y|||
 |ntp2.net.monash.edu.au|Y|130.194.7.123|1
+|time.monash.edu.au|Y|||
+
+### Murdoch University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.murdoch.edu.au|Y|||
+|ns2.murdoch.edu.au|Y|||
+|ns3.murdoch.edu.au|Y|||
+|ns4.murdoch.edu.au|Y|||
+|ntp.murdoch.edu.au|Y|||
+
+### Queensland University of Technology
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.qut.edu.au|Y|||
+|ns2.qut.edu.au|Y|||
+|ns3.qut.edu.au|Y|||
+|ns4.qut.edu.au|Y|||
 
 ### RMIT University
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|time.rmit.edu.au|Y|159.196.3.239|1
+|time.rmit.edu.au|Y|129.250.35.251|2
+
+### Southern Cross University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns.scu.edu.au|Y|||
+
+### Swinburne University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.swin.edu.au|Y|||
+|ns2.swin.edu.au|Y|||
+|ns3.swin.edu.au|Y|||
+|ns4.swin.edu.au|Y|||
+|ntp.swin.edu.au|Y|136.186.1.110|2
+|ntp1.swin.edu.au|Y|136.186.1.45|2
+|ntp2.swin.edu.au|Y|136.186.1.80|2
+|ntp3.swin.edu.au|Y|136.186.1.114|2
+
+### Torrens University Australia
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
 
 ### University of Adelaide
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns.adelaide.edu.au|Y|129.127.40.3|2
+|ns1.adelaide.edu.au|Y|129.127.43.4|2
+|ns2.adelaide.edu.au|Y|129.127.41.3|2
 |ntp.adelaide.edu.au|Y|129.127.40.3|2
+|ntp1.adelaide.edu.au|Y|129.127.43.4|2
+|ntp2.adelaide.edu.au|Y|129.127.41.3|2
 
 ### University of Canberra
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns0.canberra.edu.au|Y|||
+|ns1.canberra.edu.au|Y|||
+|ns2.canberra.edu.au|Y|||
 |ntp.canberra.edu.au|Y|||
 |ntp1.canberra.edu.au|Y|||
 |ntp2.canberra.edu.au|Y|||
@@ -289,11 +439,12 @@ Universities, Colleges, TAFEs, and other related institutions
 ### University of Divinity
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|time.divinity.edu.au|Y|||
 
 ### University of Melbourne
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.unimelb.edu.au|Y|||
+|ns2.unimelb.edu.au|Y|||
 |ntp.unimelb.edu.au|Y|||
 |ntp1.unimelb.edu.au|Y|||
 |ntp2.unimelb.edu.au|Y|||
@@ -301,6 +452,10 @@ Universities, Colleges, TAFEs, and other related institutions
 ### University of New England
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns.une.edu.au|Y|||
+|ns1.une.edu.au|Y|||
+|ns2.une.edu.au|Y|||
+|ns3.une.edu.au|Y|||
 |ntp.une.edu.au|Y|129.180.118.1|1
 |tick.une.edu.au|Y|129.180.1.14|1
 |tock.une.edu.au|Y|129.180.126.10|1
@@ -308,10 +463,26 @@ Universities, Colleges, TAFEs, and other related institutions
 ### University of New South Wales
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.unsw.edu.au|Y|||
+|ns2.unsw.edu.au|Y|||
+|ns3.unsw.edu.au|Y|||
 |ntp.unsw.edu.au|Y|||
 |ntp1.unsw.edu.au|Y|||
 |ntp2.unsw.edu.au|Y|||
 |ntp3.unsw.edu.au|Y|||
+
+### University of Newcastle
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns.newcastle.edu.au|Y|||
+|ns1.newcastle.edu.au|Y|||
+|ns2.newcastle.edu.au|Y|||
+|ntp.newcastle.edu.au|Y|||
+|time.newcastle.edu.au|Y|||
+
+### University of Notre Dame Australia
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
 
 ### University of Queensland
 | Endpoint                           | A/AAAA | IP               | Stratum |
@@ -320,14 +491,46 @@ Universities, Colleges, TAFEs, and other related institutions
 |ntp1.uq.edu.au|Y|||
 |ntp2.uq.edu.au|Y|||
 
+### University of South Australia
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns.unisa.edu.au|Y|||
+|ns0.unisa.edu.au|Y|||
+|ns1.unisa.edu.au|Y|||
+|ns2.unisa.edu.au|Y|||
+
+### University of Southern Queensland
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns0.usq.edu.au|Y|||
+
+### University of Sydney
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+
+### University of Tasmania
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.utas.edu.au|Y|||
+|ns2.utas.edu.au|Y|||
+
 ### University of Technology Sydney
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns.uts.edu.au|Y|||
+|ns1.uts.edu.au|Y|||
+|ns2.uts.edu.au|Y|||
+|ns3.uts.edu.au|Y|||
+|ns4.uts.edu.au|Y|||
 |time.uts.edu.au|Y|||
 
 ### University of Western Australia
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns.uwa.edu.au|Y|||
+|ns1.uwa.edu.au|Y|||
+|ns2.uwa.edu.au|Y|||
+|ns3.uwa.edu.au|Y|||
 |time.uwa.edu.au|Y|130.95.128.36|3
 
 ### University of Wollongong
@@ -335,13 +538,33 @@ Universities, Colleges, TAFEs, and other related institutions
 | :--------------------------------- | -----: | :--------------- | ------: |
 |ntp.uow.edu.au|Y|||
 
+### University of Woolongong
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+
 ### University of the Sunshine Coast
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|ntp.usc.edu.au|Y|203.29.107.141|2
+|ntp.usc.edu.au|Y|203.57.184.173|2
 |ntp1.usc.edu.au|Y|203.29.107.140|2
 |ntp2.usc.edu.au|Y|203.29.107.141|2
 |ntp3.usc.edu.au|Y|203.57.184.172|2
 |ntp4.usc.edu.au|Y|203.57.184.173|2
+
+### Victoria University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+
+### Western Sydney University
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns.westernsydney.edu.au|Y|||
+|ns1.westernsydney.edu.au|Y|||
+|ns2.westernsydney.edu.au|Y|||
+|ns3.westernsydney.edu.au|Y|||
+|ns4.westernsydney.edu.au|Y|||
+|ntp.westernsydney.edu.au|Y|||
+|ntp2.westernsydney.edu.au|Y|||
+|time.westernsydney.edu.au|Y|||
 
 
