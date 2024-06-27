@@ -41,12 +41,14 @@ Internet Service Providers
 ### Exetel
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|clock.exetel.com.au|Y|220.233.0.50|4
+|clock.exetel.com.au|Y|220.233.0.50|3
 
 ### Internode
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns2.on.net|Y|192.231.203.2|3
 |ntp.internode.on.net|Y|192.231.203.132|2
+|ntp.on.net|Y|192.231.203.132|2
 
 ### Optus
 | Endpoint                           | A/AAAA | IP               | Stratum |
@@ -78,7 +80,7 @@ Internet Service Providers
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
 |ntp.vocus.network|Y|||
-|ntp01.vic.vocus.network|Y|210.50.117.21|2
+|ntp01.vic.vocus.network|Y|||
 |ntp02.vic.vocus.network|Y|211.26.226.21|2
 
 ### iPrimus
@@ -90,7 +92,7 @@ Internet Service Providers
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
 |ntp.ii.net|Y|203.0.178.191|3
-|ntp.iinet.net.au|Y|203.0.178.191|3
+|ntp.iinet.net.au|Y|203.0.178.191|2
 |ntp1.iinet.net.au|Y|203.0.178.191|3
 |ntp2.iinet.net.au|Y|203.0.178.191|3
 |time.iinet.net.au|Y|203.0.178.191|3
@@ -98,10 +100,138 @@ Internet Service Providers
 
 ## Organisations
 Other organisations not under other another category
+### APCS
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.apcs.com.au|Y|210.79.26.105|3
+
+### ASE IT Networks
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|time.aseit.com.au|Y|||
+
+### Aus IT Services
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.aus-it.com.au|Y|103.48.208.254|3
+
+### Australia Online
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.australiaonline.net.au|Y|||
+|time.australiaonline.net.au|Y|||
+
+### BitWave Networks
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.bitwave.com.au|Y|103.198.24.6|1
+
+### Comvergence
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.comvergence.com.au|Y|||
+|time.comvergence.com.au|Y|||
+
+### Conexim
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns.conexim.com.au|Y|203.124.190.53|3
+|ns1.conexim.com.au|Y|203.124.190.53|3
+|time.conexim.com.au|Y|||
+
+### Cynergic
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns2.cynergic.com.au|Y|203.55.18.5|2
+|ns3.cynergic.com.au|Y|203.55.18.5|2
+
+### Dedicated Servers
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.dedicatedservers.net.au|Y|159.196.44.158|2
+
+### ECN Internet
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.ecn.net.au|Y|203.22.70.2|3
+
+### EscapeNet
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.esc.net.au|Y|203.25.185.252|3
+|tic.esc.net.au|Y|123.136.34.45|3
+|toc.esc.net.au|Y|123.136.34.46|3
+
+### FetchTV
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|0.fetchtv.pool.ntp.org|Y|216.229.4.66|2
+|ntp.fetchtv.com.au|Y|212.227.240.160|2
+
+### GoHosting
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|time.gohosting.com.au|Y|103.11.147.150|3
+
+### Host Tel
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns0.hosttel.com.au|Y|||
+|ns1.hosttel.com.au|Y|||
+|ns2.hosttel.com.au|Y|||
+|ns4.hosttel.com.au|Y|||
+|ntp.hosttel.com.au|N|||
+
+### Hostworks
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.hostworks.com.au|Y|202.58.63.200|2
+
+### Infinite Networks
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.infinite.net.au|Y|175.106.7.2|4
+
+### Interconnect Networks
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.rbe.net.au|Y|192.231.203.132|2
+
 ### Internet Association of Australia
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.asn.au|N|||
 |ntp.waia.asn.au|Y|||
+
+### KERNWIFI
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.kernwifi.com.au|Y|159.196.3.239|1
+|ntp2.kernwifi.com.au|N|||
+
+### Nexon
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns1.nexon.com.au|Y|210.215.221.1|3
+|ntp.nexon.com.au|Y|210.215.6.3|2
+|ntp2.nexon.com.au|Y|210.215.221.1|3
+
+### Sky News Australia
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns.skynews.com.au|Y|||
+
+### Spectrum Networks
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ns2.spectrum.com.au|Y|203.14.108.10|11
+|ntp.spectrum.com.au|Y|202.68.160.8|3
+|time.spectrum.com.au|Y|202.68.160.8|3
+
+### Web in a Box
+| Endpoint                           | A/AAAA | IP               | Stratum |
+| :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.webinabox.net.au|Y|110.173.224.100|2
 
 ### connect.com.au
 | Endpoint                           | A/AAAA | IP               | Stratum |
@@ -325,7 +455,7 @@ Universities, Colleges, TAFEs, and other related institutions
 ### James Cook University
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|ns.jcu.edu.au|Y|||
+|ns.jcu.edu.au|N|||
 |ns1.jcu.edu.au|Y|||
 |ns2.jcu.edu.au|Y|||
 |ns3.jcu.edu.au|Y|||
@@ -391,7 +521,7 @@ Universities, Colleges, TAFEs, and other related institutions
 ### RMIT University
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|time.rmit.edu.au|Y|129.250.35.251|2
+|time.rmit.edu.au|Y|159.196.44.158|2
 
 ### Southern Cross University
 | Endpoint                           | A/AAAA | IP               | Stratum |
@@ -507,6 +637,8 @@ Universities, Colleges, TAFEs, and other related institutions
 ### University of Sydney
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ntp.usyd.edu.au|Y|||
+|ntp2.usyd.edu.au|Y|||
 
 ### University of Tasmania
 | Endpoint                           | A/AAAA | IP               | Stratum |
@@ -545,7 +677,7 @@ Universities, Colleges, TAFEs, and other related institutions
 ### University of the Sunshine Coast
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
-|ntp.usc.edu.au|Y|203.57.184.173|2
+|ntp.usc.edu.au|Y|203.29.107.140|2
 |ntp1.usc.edu.au|Y|203.29.107.140|2
 |ntp2.usc.edu.au|Y|203.29.107.141|2
 |ntp3.usc.edu.au|Y|203.57.184.172|2
@@ -558,13 +690,22 @@ Universities, Colleges, TAFEs, and other related institutions
 ### Western Sydney University
 | Endpoint                           | A/AAAA | IP               | Stratum |
 | :--------------------------------- | -----: | :--------------- | ------: |
+|ns.uws.edu.au|Y|||
 |ns.westernsydney.edu.au|Y|||
+|ns1.uws.edu.au|Y|||
 |ns1.westernsydney.edu.au|Y|||
+|ns2.uws.edu.au|Y|||
 |ns2.westernsydney.edu.au|Y|||
+|ns3.uws.edu.au|Y|||
 |ns3.westernsydney.edu.au|Y|||
+|ns4.uws.edu.au|Y|||
 |ns4.westernsydney.edu.au|Y|||
+|ntp.uws.edu.au|Y|||
 |ntp.westernsydney.edu.au|Y|||
+|ntp1.uws.edu.au|Y|||
+|ntp2.uws.edu.au|Y|||
 |ntp2.westernsydney.edu.au|Y|||
+|time.uws.edu.au|Y|||
 |time.westernsydney.edu.au|Y|||
 
 
