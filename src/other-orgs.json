@@ -3,8 +3,111 @@
   "description": "Other organisations not under other another category",
   "servers": [
     {
+      "name": "Dedicated Servers",
+      "endpoints": [
+        "ntp.dedicatedservers.net.au"
+      ]
+    },
+    {
+      "name": "Web in a Box",
+      "endpoints": [
+        "ntp.webinabox.net.au"
+      ]
+    },
+    {
+      "name": "Spectrum Networks",
+      "endpoints": [
+        "ntp.spectrum.com.au",
+        "time.spectrum.com.au",
+        "ns2.spectrum.com.au"
+      ]
+    },
+    {
+      "name": "Nexon",
+      "endpoints": [
+        "ntp.nexon.com.au",
+        "ntp2.nexon.com.au",
+        "ns1.nexon.com.au"
+      ]
+    },
+    {
+      "name": "KERNWIFI",
+      "endpoints": [
+        "ntp.kernwifi.com.au",
+        "ntp2.kernwifi.com.au"
+      ]
+    },
+    {
+      "name": "Interconnect Networks",
+      "endpoints": [
+        "ntp.rbe.net.au",
+      ]
+    },
+    {
+      "name": "Infinite Networks",
+      "endpoints": [
+        "ntp.infinite.net.au"
+      ]
+    },
+    {
+      "name": "Hostworks",
+      "endpoints": [
+        "ntp.hostworks.com.au"
+      ]
+    },
+    {
+      "name": "Host Tel",
+      "endpoints": [
+        "ntp.hosttel.com.au",
+        "ns0.hosttel.com.au",
+        "ns1.hosttel.com.au",
+        "ns2.hosttel.com.au",
+        "ns4.hosttel.com.au"
+      ]
+    },
+    {
+      "name": "GoHosting",
+      "endpoints": [
+        "time.gohosting.com.au"
+      ]
+    },
+    {
+      "name": "FetchTV",
+      "endpoints": [
+        "ntp.fetchtv.com.au",
+        "0.fetchtv.pool.ntp.org"
+      ]
+    },
+    {
+      "name": "EscapeNet",
+      "endpoints": [
+        "ntp.esc.net.au",
+        "tic.esc.net.au",
+        "toc.esc.net.au"
+      ]
+    },
+    {
+      "name": "ECN Internet",
+      "endpoints": [
+        "ntp.ecn.net.au"
+      ]
+    },
+    {
+      "name": "BitWave Networks",
+      "endpoints": [
+        "ntp.bitwave.com.au"
+      ]
+    },
+    {
+      "name": "Aus IT Services",
+      "endpoints": [
+        "ntp.aus-it.com.au"
+      ]
+    },
+    {
       "name": "Internet Association of Australia",
       "endpoints": [
+        "ntp.asn.au",
         "ntp.waia.asn.au"
       ]
     },
