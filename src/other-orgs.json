@@ -87,7 +87,7 @@
     {
       "name": "Interconnect Networks",
       "endpoints": [
-        "ntp.rbe.net.au",
+        "ntp.rbe.net.au"
       ]
     },
     {
