@@ -3,6 +3,210 @@
   "description": "Universities, Colleges, TAFEs, and other related institutions",
   "servers": [
     {
+      "name": "Western Sydney University",
+      "endpoints": [
+        "ntp.westernsydney.edu.au",
+        "ntp2.westernsydney.edu.au",
+        "time.westernsydney.edu.au",
+        "ns.westernsydney.edu.au",
+        "ns1.westernsydney.edu.au",
+        "ns2.westernsydney.edu.au",
+        "ns3.westernsydney.edu.au",
+        "ns4.westernsydney.edu.au"
+      ]
+    },
+    {
+      "name": "Victoria University",
+      "endpoints": [
+      ]
+    },
+    {
+      "name": "University of Woolongong",
+      "endpoints": [
+      ]
+    },
+    {
+      "name": "University of Tasmania",
+      "endpoints": [
+        "ns1.utas.edu.au",
+        "ns2.utas.edu.au"
+      ]
+    },
+    {
+      "name": "University of Sydney",
+      "endpoints": [
+      ]
+    },
+    {
+      "name": "University of Southern Queensland",
+      "endpoints": [
+        "ns0.usq.edu.au"
+      ]
+    },
+    {
+      "name": "University of South Australia",
+      "endpoints": [
+        "ns.unisa.edu.au",
+        "ns0.unisa.edu.au",
+        "ns1.unisa.edu.au",
+        "ns2.unisa.edu.au"
+      ]
+    },
+    {
+      "name": "University of Notre Dame Australia",
+      "endpoints": [
+      ]
+    },
+    {
+      "name": "University of Newcastle",
+      "endpoints": [
+        "ntp.newcastle.edu.au",
+        "time.newcastle.edu.au",
+        "ns.newcastle.edu.au",
+        "ns1.newcastle.edu.au",
+        "ns2.newcastle.edu.au"
+      ]
+    },
+    {
+      "name": "Torrens University Australia",
+      "endpoints": [
+      ]
+    },
+    {
+      "name": "Southern Cross University",
+      "endpoints": [
+        "ns.scu.edu.au"
+      ]
+    },
+    {
+      "name": "Queensland University of Technology",
+      "endpoints": [
+        "ns1.qut.edu.au",
+        "ns2.qut.edu.au",
+        "ns3.qut.edu.au",
+        "ns4.qut.edu.au"
+      ]
+    },
+    {
+      "name": "Murdoch University",
+      "endpoints": [
+        "ntp.murdoch.edu.au",
+        "ns1.murdoch.edu.au",
+        "ns2.murdoch.edu.au",
+        "ns3.murdoch.edu.au",
+        "ns4.murdoch.edu.au"
+      ]
+    },
+    {
+      "name": "James Cook University",
+      "endpoints": [
+        "ntp.jcu.edu.au",
+        "ntp1.jcu.edu.au",
+        "ntp2.jcu.edu.au",
+        "ns.jcu.edu.au",
+        "ns1.jcu.edu.au",
+        "ns2.jcu.edu.au",
+        "ns3.jcu.edu.au",
+        "ns4.jcu.edu.au"
+      ]
+    },
+    {
+      "name": "Griffith University",
+      "endpoints": [
+        "ns1.griffith.edu.au"
+      ]
+    },
+    {
+      "name": "Flinders University",
+      "endpoints": [
+        "ntp.flinders.edu.au"
+      ]
+    },
+    {
+      "name": "Edith Cowan University",
+      "endpoints": [
+        "ntp.ecu.edu.au",
+        "ntp1.ecu.edu.au",
+        "ntp2.ecu.edu.au",
+        "ns1.ecu.edu.au",
+        "ns2.ecu.edu.au"
+      ]
+    },
+    {
+      "name": "Curtin University",
+      "endpoints": [
+        "ntp.curtin.edu.au",
+        "time.curtin.edu.au",
+        "ns1.curtin.edu.au",
+        "ns2.curtin.edu.au",
+        "ns3.curtin.edu.au"
+      ]
+    },
+    {
+      "name": "CQ University",
+      "endpoints": [
+        "ntp.cqu.edu.au",
+        "ntp1.cqu.edu.au",
+        "ntp2.cqu.edu.au",
+        "ntp3.cqu.edu.au",
+        "ntp4.cqu.edu.au",
+        "ns1.cqu.edu.au",
+        "ns2.cqu.edu.au"
+      ]
+    },
+    {
+      "name": "Charles Sturt University",
+      "endpoints": [
+        "ntp.csu.edu.au",
+        "ns.csu.edu.au"
+      ]
+    },
+    {
+      "name": "Charles Darwin University",
+      "endpoints": [
+        "ntp.cdu.edu.au",
+        "ntp1.cdu.edu.au",
+        "ntp2.cdu.edu.au",
+        "ntp3.cdu.edu.au",
+        "ns1.cdu.edu.au",
+        "ns2.cdu.edu.au"
+      ]
+    },
+    {
+      "name": "Avondale University",
+      "endpoints": [
+        "ns0.avondale.edu.au",
+        "ns1.avondale.edu.au"
+      ]
+    },
+    {
+      "name": "Bond University",
+      "endpoints": [
+        "ntp.bond.edu.au"
+      ]
+    },
+    {
+      "name": "Swinburne University",
+      "endpoints": [
+        "ntp.swin.edu.au",
+        "ntp1.swin.edu.au",
+        "ntp2.swin.edu.au",
+        "ntp3.swin.edu.au",
+        "ns1.swin.edu.au",
+        "ns2.swin.edu.au",
+        "ns3.swin.edu.au",
+        "ns4.swin.edu.au"
+      ]
+    },
+    {
+      "name": "Australian Catholic University",
+      "endpoints": [
+        "ns.acu.edu.au",
+        "ns0.acu.edu.au",
+        "ns2.acu.edu.au"
+      ]
+    },
+    {
       "name": "University of the Sunshine Coast",
       "endpoints": [
         "ntp.usc.edu.au",
@@ -19,7 +223,10 @@
         "ntp1.canberra.edu.au",
         "ntp2.canberra.edu.au",
         "ntp3.canberra.edu.au",
-        "ntp4.canberra.edu.au"
+        "ntp4.canberra.edu.au",
+        "ns0.canberra.edu.au",
+        "ns1.canberra.edu.au",
+        "ns2.canberra.edu.au"
       ]
     },
     {
@@ -54,25 +261,39 @@
         "ntp.unsw.edu.au",
         "ntp1.unsw.edu.au",
         "ntp2.unsw.edu.au",
-        "ntp3.unsw.edu.au"
+        "ntp3.unsw.edu.au",
+        "ns1.unsw.edu.au",
+        "ns2.unsw.edu.au",
+        "ns3.unsw.edu.au"
       ]
     },
     {
       "name": "University of Technology Sydney",
       "endpoints": [
-        "time.uts.edu.au"
+        "time.uts.edu.au",
+        "ns.uts.edu.au",
+        "ns1.uts.edu.au",
+        "ns2.uts.edu.au",
+        "ns3.uts.edu.au",
+        "ns4.uts.edu.au"
       ]
     },
     {
       "name": "University of Divinity",
       "endpoints": [
-        "time.divinity.edu.au"
       ]
     },
     {
       "name": "LaTrobe University",
       "endpoints": [
-        "ntp.latrobe.edu.au"
+        "ntp.latrobe.edu.au",
+        "ntp1.latrobe.edu.au",
+        "ntp2.latrobe.edu.au",
+        "ntp4.latrobe.edu.au",
+        "ns0.latrobe.edu.au",
+        "ns1.latrobe.edu.au",
+        "ns2.latrobe.edu.au",
+        "ns3.latrobe.edu.au"
       ]
     },
     {
@@ -84,13 +305,22 @@
     {
       "name": "University of Western Australia",
       "endpoints": [
-        "time.uwa.edu.au"
+        "time.uwa.edu.au",
+        "ns.uwa.edu.au",
+        "ns1.uwa.edu.au",
+        "ns2.uwa.edu.au",
+        "ns3.uwa.edu.au"
       ]
     },
     {
       "name": "University of Adelaide",
       "endpoints": [
-        "ntp.adelaide.edu.au"
+        "ntp.adelaide.edu.au",
+        "ntp1.adelaide.edu.au",
+        "ntp2.adelaide.edu.au",
+        "ns.adelaide.edu.au",
+        "ns1.adelaide.edu.au",
+        "ns2.adelaide.edu.au"
       ]
     },
     {
@@ -98,7 +328,11 @@
       "endpoints": [
         "ntp.une.edu.au",
         "tick.une.edu.au",
-        "tock.une.edu.au"
+        "tock.une.edu.au",
+        "ns.une.edu.au",
+        "ns1.une.edu.au",
+        "ns2.une.edu.au",
+        "ns3.une.edu.au"
       ]
     },
     {
@@ -112,7 +346,9 @@
       "endpoints": [
         "ntp.unimelb.edu.au",
         "ntp1.unimelb.edu.au",
-        "ntp2.unimelb.edu.au"
+        "ntp2.unimelb.edu.au",
+        "ns1.unimelb.edu.au",
+        "ns2.unimelb.edu.au"
       ]
     },
     {
@@ -125,6 +361,14 @@
     {
       "name": "Monash University",
       "endpoints": [
+        "ntp.monash.edu.au",
+        "ntp1.monash.edu.au",
+        "ntp2.monash.edu.au",
+        "time.monash.edu.au",
+        "ns1.monash.edu.au",
+        "ns2.monash.edu.au",
+        "ns3.monash.edu.au",
+        "ns4.monash.edu.au",
         "ntp1.net.monash.edu.au",
         "ntp2.net.monash.edu.au"
       ]
@@ -132,7 +376,11 @@
     {
       "name": "Australian National University",
       "endpoints": [
+        "chronos.anu.edu.au",
         "ntp.anu.edu.au",
+        "ntp1.anu.edu.au",
+        "ntp2.anu.edu.au",
+        "ntp3.anu.edu.au",
         "ns1.anu.edu.au",
         "ns2.anu.edu.au",
         "ns3.anu.edu.au",
