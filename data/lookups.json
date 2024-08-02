@@ -1747,7 +1747,7 @@
  {
   "name": "Mitsubishi Motors Australia",
   "categories": [ "org" ],
-  "cert": "www.mitsubish-motors.com.au:443",
+  "cert": "www.mitsubishi-motors.com.au:443",
   "domains": [
     { "name": "mitsubishi-motors.com.au" }
   ]
