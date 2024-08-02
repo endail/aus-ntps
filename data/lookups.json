@@ -1,0 +1,2587 @@
+[
+ {
+  "name": "Arrow Energy",
+  "categories": [ "org" ],
+  "cert": "www.arrowenergy.com.au:443",
+  "domains": [
+    { "name": "arrowenergy.com.au" }
+  ]
+ },
+ {
+  "name": "Australian National University",
+  "categories": [ "university" ],
+  "cert": "www.anu.edu.au:443",
+  "domains": [
+    { "name": "anu.edu.au" }
+  ]
+ },
+ {
+  "name": "Australian Catholic University",
+  "categories": [ "university" ],
+  "cert": "www.acu.edu.au:443",
+  "domains": [
+    { "name": "acu.edu.au" }
+  ]
+ },
+ {
+  "name": "Avondale University",
+  "categories": [ "university" ],
+  "cert": "www.avondale.edu.au:443",
+  "domains": [
+    { "name": "avondale.edu.au" }
+  ]
+ },
+ {
+  "name": "Bond University",
+  "categories": [ "university" ],
+  "cert": "bond.edu.au:443",
+  "domains": [
+    { "name": "bond.edu.au" }
+  ]
+ },
+ {
+  "name": "CQ University",
+  "categories": [ "university" ],
+  "cert": "cq.edu.au:443",
+  "domains": [
+    { "name": "cq.edu.au" }
+  ]
+ },
+ {
+  "name": "Charles Darwin University",
+  "categories": [ "university" ],
+  "cert": "www.cdu.edu.au:443",
+  "domains": [
+    { "name": "cdu.edu.au" }
+  ]
+ },
+ {
+  "name": "Charles Sturt University",
+  "categories": [ "university" ],
+  "cert": "www.csu.edu.au:443",
+  "domains": [
+    { "name": "csu.edu.au" }
+  ]
+ },
+ {
+  "name": "Christ Church Grammar School (Western Australia)",
+  "categories": [ "university" ],
+  "endpoints": [
+   { "host": "leontp.ccgs.wa.edu.au:123" }
+  ]
+ },
+ {
+  "name": "Deakin University",
+  "categories": [ "university" ],
+  "cert": "www.deakin.edu.au:443",
+  "domains": [
+    { "name": "deakin.edu.au" }
+  ]
+ },
+ {
+  "name": "Edith Cowan University",
+  "categories": [ "university" ],
+  "cert": "www.ecu.edu.au:443",
+  "domains": [
+    { "name": "ecu.edu.au" }
+  ]
+ },
+ {
+  "name": "Federation University",
+  "categories": [ "university" ],
+  "cert": "federation.edu.au:443",
+  "domains": [
+    { "name": "federation.edu.au" }
+  ]
+ },
+ {
+  "name": "Griffith University",
+  "categories": [ "university" ],
+  "cert": "www.griffith.edu.au:443",
+  "domains": [
+    { "name": "griffith.edu.au" }
+  ]
+ },
+ {
+  "name": "James Cook University",
+  "categories": [ "university" ],
+  "cert": "www.jcu.edu.au:443",
+  "domains": [
+    { "name": "jcu.edu.au" }
+  ]
+ },
+ {
+  "name": "LaTrobe University",
+  "categories": [ "university" ],
+  "cert": "www.latrobe.edu.au:443",
+  "domains": [
+    { "name": "latrobe.edu.au" }
+  ]
+ },
+ {
+  "name": "Macquarie University",
+  "categories": [ "university" ],
+  "cert": "www.mq.edu.au:443",
+  "domains": [
+    { "name": "mq.edu.au" }
+  ]
+ },
+ {
+  "name": "Monash University",
+  "categories": [ "university" ],
+  "cert": "www.monash.edu.au:443",
+  "domains": [
+   { "name": "monash.edu.au" },
+   { "name": "net.monash.edu.au" }
+  ]
+ },
+ {
+  "name": "Murdoch University",
+  "categories": [ "university" ],
+  "cert": "www.murdoch.edu.au:443",
+  "domains": [
+    { "name": "murdoch.edu.au" }
+  ]
+ },
+ {
+  "name": "Queensland University of Technology",
+  "categories": [ "university" ],
+  "cert": "www.qut.edu.au:443",
+  "domains": [
+    { "name": "qut.edu.au" }
+  ]
+ },
+ {
+  "name": "RMIT University",
+  "categories": [ "university" ],
+  "cert": "www.rmit.edu.au:443",
+  "domains": [
+    { "name": "rmit.edu.au" }
+  ]
+ },
+ {
+  "name": "Swoop",
+  "categories": [ "isp" ],
+  "cert": "www.swoop.com.au:443",
+  "domains": [
+    { "name": "swoop.com.au" }
+  ]
+ },
+ {
+  "name": "Southern Cross University",
+  "categories": [ "university" ],
+  "cert": "www.scu.edu.au:443",
+  "domains": [
+    { "name": "scu.edu.au" }
+  ]
+ },
+ {
+  "name": "Swinburne University",
+  "categories": [ "university" ],
+  "cert": "www.swinburne.edu.au:443",
+  "domains": [
+    { "name": "swin.edu.au" }
+  ]
+ },
+ {
+  "name": "Torrens University",
+  "categories": [ "university" ],
+  "cert": "www.torrens.edu.au:443",
+  "domains": [
+    { "name": "torrens.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Adelaide",
+  "categories": [ "university" ],
+  "cert": "www.adelaide.edu.au:443",
+  "domains": [
+    { "name": "adelaide.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Canberra",
+  "categories": [ "university" ],
+  "cert": "www.canberra.edu.au:443",
+  "domains": [
+    { "name": "canberra.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Divinity",
+  "categories": [ "university" ],
+  "cert": "divinity.edu.au:443",
+  "domains": [
+    { "name": "divinity.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Melbourne",
+  "categories": [ "university" ],
+  "cert": "www.unimelb.edu.au:443",
+  "domains": [
+    { "name": "unimelb.edu.au" }
+  ]
+ },
+ {
+  "name": "University of New England",
+  "categories": [ "university" ],
+  "cert": "www.une.edu.au:443",
+  "domains": [
+    { "name": "une.edu.au" }
+  ]
+ },
+ {
+  "name": "University of New South Wales",
+  "categories": [ "university" ],
+  "cert": "www.unsw.edu.au:443",
+  "domains": [
+    { "name": "unsw.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Newcastle",
+  "categories": [ "university" ],
+  "cert": "www.newcastle.edu.au:443",
+  "domains": [
+    { "name": "newcastle.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Notre Dame Australia",
+  "categories": [ "university" ],
+  "cert": "www.notredame.edu.au:443",
+  "domains": [
+    { "name": "notredame.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Queensland",
+  "categories": [ "university" ],
+  "cert": "www.uq.edu.au:443",
+  "domains": [
+    { "name": "uq.edu.au" }
+  ]
+ },
+ {
+  "name": "University of South Australia",
+  "categories": [ "university" ],
+  "cert": "www.unisa.edu.au:443",
+  "domains": [
+    { "name": "unisa.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Sydney",
+  "categories": [ "university" ],
+  "cert": "www.sydney.edu.au:443",
+  "domains": [
+    { "name": "usyd.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Tasmania",
+  "categories": [ "university" ],
+  "cert": "www.utas.edu.au:443",
+  "domains": [
+    { "name": "utas.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Technology Sydney",
+  "categories": [ "university" ],
+  "cert": "www.uts.edu.au:443",
+  "domains": [
+    { "name": "uts.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Western Australia",
+  "categories": [ "university" ],
+  "cert": "www.uwa.edu.au:443",
+  "domains": [
+    { "name": "uwa.edu.au" }
+  ]
+ },
+ {
+  "name": "University of Woolongong",
+  "categories": [ "university" ],
+  "cert": "www.uow.edu.au:443",
+  "domains": [
+    { "name": "uow.edu.au" }
+  ]
+ },
+ {
+  "name": "University of the Sunshine Coast",
+  "categories": [ "university" ],
+  "cert": "www.usc.edu.au:443",
+  "domains": [
+    { "name": "usc.edu.au"}
+  ]
+ },
+ {
+  "name": "Victoria University",
+  "categories": [ "university" ],
+  "cert": "www.vu.edu.au:443",
+  "domains": [
+    { "name": "vu.edu.au" }
+  ]
+ },
+ {
+  "name": "Western Sydney University",
+  "categories": [ "university" ],
+  "cert": "www.westernsydney.edu.au:443",
+  "domains": [
+   { "name": "uws.edu.au" },
+   { "name": "westernsydney.edu.au" }
+  ]
+ },
+ {
+  "name": "ABC",
+  "categories": [ "top" ],
+  "cert": "www.abc.net.au:443",
+  "domains": [
+   { "name": "abc.net.au" }
+  ]
+ },
+ {
+  "name": "Sydney Morning Herald",
+  "categories": [ "top" ],
+  "cert": "www.smh.com.au:443",
+  "domains": [
+   { "name": "smh.com.au" }
+  ]
+ },
+ {
+  "name": "Victorian Government",
+  "categories": [ "top" ],
+  "cert": "www.vic.gov.au:443",
+  "domains": [
+   { "name": "vic.gov.au" }
+  ]
+ },
+ {
+  "name": "news.com.au",
+  "categories": [ "top" ],
+  "cert": "www.news.com.au:443",
+  "domains": [
+   { "name": "news.com.au" }
+  ]
+ },
+ {
+  "name": "New South Wales Government",
+  "categories": [ "top" ],
+  "cert": "www.nsw.gov.au:443",
+  "domains": [
+   { "name": "nsw.gov.au" }
+  ]
+ },
+ {
+  "name": "Queensland Government",
+  "categories": [ "top" ],
+  "cert": "www.qld.gov.au:443",
+  "domains": [
+   { "name": "qld.gov.au" }
+  ]
+ },
+ {
+  "name": "The Age",
+  "categories": [ "top" ],
+  "cert": "www.theage.com.au:443",
+  "domains": [
+   { "name": "theage.com.au" }
+  ]
+ },
+ {
+  "name": "Western Australia Government",
+  "categories": [ "top" ],
+  "cert": "www.wa.gov.au:443",
+  "domains": [
+   { "name": "wa.gov.au" }
+  ]
+ },
+ {
+  "name": "SBS",
+  "categories": [ "top" ],
+  "cert": "www.sbs.com.au:443",
+  "domains": [
+   { "name": "sbs.com.au" }
+  ]
+ },
+ {
+  "name": "The Australian",
+  "categories": [ "top" ],
+  "cert": "www.theaustralian.com.au:443",
+  "domains": [
+   { "name": "theaustralian.com.au" }
+  ]
+ },
+ {
+  "name": "CSIRO",
+  "categories": [ "top" ],
+  "cert": "www.csiro.au:443",
+  "domains": [
+   { "name": "csiro.au" }
+  ]
+ },
+ {
+  "name": "Brennan IT",
+  "categories": [ "org" ],
+  "cert": "www.brennanit.com.au:443",
+  "domains": [
+   { "name": "brennanit.com.au" }
+  ]
+ },
+ {
+  "name": "National Library of Australia",
+  "categories": [ "top" ],
+  "cert": "www.nla.gov.au:443",
+  "domains": [
+   { "name": "nla.gov.au" }
+  ]
+ },
+ {
+  "name": "South Australia Government",
+  "categories": [ "top" ],
+  "cert": "www.sa.gov.au:443",
+  "domains": [
+   { "name": "sa.gov.au" }
+  ]
+ },
+ {
+  "name": "Amazon Australia",
+  "categories": [ "top" ],
+  "cert": "www.amazon.com.au:443",
+  "domains": [
+   { "name": "amazon.com.au" }
+  ]
+ },
+ {
+  "name": "eBay Australia",
+  "categories": [ "top" ],
+  "cert": "www.ebay.com.au:443",
+  "domains": [
+   { "name": "ebay.com.au" }
+  ]
+ },
+ {
+  "name": "Department of Health and Aged Care",
+  "categories": [ "top" ],
+  "cert": "www.health.gov.au:443",
+  "domains": [
+   { "name": "health.gov.au" }
+  ]
+ },
+ {
+  "name": "The Daily Telegraph",
+  "categories": [ "top" ],
+  "cert": "www.dailytelegraph.com.au:443",
+  "domains": [
+   { "name": "dailytelegraph.com.au" }
+  ]
+ },
+ {
+  "name": "Pinterest Australia",
+  "categories": [ "top" ],
+  "cert": "www.pinterest.com.au:443",
+  "domains": [
+   { "name": "pinterest.com.au" }
+  ]
+ },
+ {
+  "name": "The Herald Sun",
+  "categories": [ "top" ],
+  "cert": "www.heraldsun.com.au:443",
+  "domains": [
+   { "name": "heraldsun.com.au" }
+  ]
+ },
+ {
+  "name": "Department of Home Affairs",
+  "categories": [ "top" ],
+  "cert": "www.homeaffairs.gov.au:443",
+  "domains": [
+   { "name": "homeaffairs.gov.au" }
+  ]
+ },
+ {
+  "name": "Channel 9",
+  "categories": [ "top" ],
+  "cert": "www.nine.com.au:443",
+  "domains": [
+   { "name": "9news.com.au" },
+   { "name": "nine.com.au" },
+   { "name": "nineforbrands.com.au" }
+  ]
+ },
+ {
+  "name": "Australian Bureau of Statistics",
+  "categories": [ "top" ],
+  "cert": "www.abs.gov.au:443",
+  "domains": [
+   { "name": "abs.gov.au" }
+  ]
+ },
+ {
+  "name": "Tasmanian Government",
+  "categories": [ "top" ],
+  "cert": "www.tas.gov.au:443",
+  "domains": [
+   { "name": "tas.gov.au" }
+  ]
+ },
+ {
+  "name": "Parliament of Australia",
+  "categories": [ "top" ],
+  "cert": "www.aph.gov.au:443",
+  "domains": [
+   { "name": "aph.gov.au" }
+  ]
+ },
+ {
+  "name": "Bureau of Meteorology",
+  "categories": [ "top" ],
+  "domains": [
+   { "name": "bom.gov.au" }
+  ]
+ },
+ {
+  "name": "The Courier Mail",
+  "categories": [ "top" ],
+  "cert": "www.couriermail.com.au:443",
+  "domains": [
+   { "name": "couriermail.com.au" }
+  ]
+ },
+ {
+  "name": "Healthdirect Australia",
+  "categories": [ "top" ],
+  "cert": "www.healthdirect.gov.au:443",
+  "domains": [
+   { "name": "healthdirect.gov.au" }
+  ]
+ },
+ {
+  "name": "Australian Taxation Office",
+  "categories": [ "top" ],
+  "cert": "www.ato.gov.au:443",
+  "domains": [
+   { "name": "ato.gov.au" }
+  ]
+ },
+ {
+  "name": "Eventbrite",
+  "categories": [ "top" ],
+  "cert": "www.eventbrite.com.au:443",
+  "domains": [
+   { "name": "eventbrite.com.au" }
+  ]
+ },
+ {
+  "name": "Gizmodo",
+  "categories": [ "top" ],
+  "cert": "www.gizmodo.com.au:443",
+  "domains": [
+   { "name": "gizmodo.com.au" }
+  ]
+ },
+ {
+  "name": "Northern Territory Government",
+  "categories": [ "top" ],
+  "cert": "nt.gov.au:443",
+  "domains": [
+   { "name": "nt.gov.au" }
+  ]
+ },
+ {
+  "name": "The Canberra Times",
+  "categories": [ "top" ],
+  "cert": "www.canberratimes.com.au:443",
+  "domains": [
+   { "name": "canberra.com.au" }
+  ]
+ },
+ {
+  "name": "Office of the Australian Information Commissioner",
+  "categories": [ "top" ],
+  "cert": "www.oaic.gov.au:443",
+  "domains": [
+   { "name": "oaic.gov.au" }
+  ]
+ },
+ {
+  "name": "Department of Foreign Affairs and Trade",
+  "categories": [ "top" ],
+  "cert": "www.dfat.gov.au:443",
+  "domains": [
+   { "name": "dfat.gov.au" },
+   { "name": "embassy.gov.au" }
+  ]
+ },
+ {
+  "name": "7News",
+  "categories": [ "top" ],
+  "cert": "7news.com.au:443",
+  "domains": [
+   { "name": "7news.com.au" }
+  ]
+ },
+ {
+  "name": "Prime Minister of Australia",
+  "categories": [ "top" ],
+  "cert": "www.pm.gov.au:443",
+  "domains": [
+   { "name": "pm.gov.au" },
+   { "name": "australia.gov.au" }
+  ]
+ },
+ {
+  "name": "New South Wales Department of Education",
+  "categories": [ "top" ],
+  "cert": "education.nsw.gov.au:443",
+  "domains": [
+   { "name": "education.nsw.gov.au" }
+  ]
+ },
+ {
+  "name": "Australasian Legal Information Institute",
+  "categories": [ "top" ],
+  "cert": "austlii.edu.au:443",
+  "domains": [
+   { "name": "austlii.edu.au" }
+  ]
+ },
+ {
+  "name": "Brisbane Times",
+  "categories": [ "top" ],
+  "cert": "www.brisbanetimes.com.au:443",
+  "domains": [
+   { "name": "brisbanetimes.com.au" }
+  ]
+ },
+
+ {
+  "name": "ACT Government",
+  "categories": [ "top" ],
+  "cert": "www.act.gov.au:443",
+  "domains": [
+   { "name": "act.gov.au" }
+  ]
+ },
+ {
+  "name": "Federal Register of Legislation",
+  "categories": [ "top" ],
+  "cert": "www.legislation.gov.au:443",
+  "domains": [
+   { "name": "legislation.gov.au" }
+  ]
+ },
+ {
+  "name": "SEEK",
+  "categories": [ "top" ],
+  "cert": "www.seek.com.au:443",
+  "domains": [
+   { "name": "seek.com.au" }
+  ]
+ },
+ {
+  "name": "THe West Australian",
+  "categories": [ "top" ],
+  "cert": "thewest.com.au:443",
+  "domains": [
+   { "name": "thewest.com.au" },
+   { "name": "perthnow.com.au" }
+  ]
+ },
+ {
+  "name": "Sky News Australia",
+  "categories": [ "top" ],
+  "cert": "www.skynews.com.au:443",
+  "domains": [
+   { "name": "skynews.com.au" }
+  ]
+ },
+ {
+  "name": "business.gov.au",
+  "categories": [ "top" ],
+  "cert": "business.gov.au:443",
+  "domains": [
+   { "name": "business.gov.au" }
+  ]
+ },
+ {
+  "name": "squarealpha",
+  "categories": [ "org" ],
+  "cert": "www.squarealpha.com.au:443",
+  "domains": [
+    { "name": "squarealpha.com.au" }
+  ]
+ },
+ {
+  "name": "Summit Internet",
+  "categories": [ "isp" ],
+  "cert": "summitinternet.com.au:443",
+  "domains": [
+    { "name": "summitinternet.com.au" }
+  ]
+ },
+ {
+  "name": "Suncorp",
+  "categories": [ "org" ],
+  "cert": "www.suncorp.com.au:443",
+  "domains": [
+    { "name": "suncorp.com.au" }
+  ]
+ },
+ {
+  "name": "SwiftFiber",
+  "categories": [ "isp" ],
+  "cert": "swiftfiber.com.au:443",
+  "domains": [
+    { "name": "swiftfiber.com.au" }
+  ]
+ },
+ {
+  "name": "Sydney Airport",
+  "categories": [ "org" ],
+  "cert": "www.sydneyairport.com.au:443",
+  "domains": [
+    { "name": "sydneyairport.com.au" }
+  ]
+ },
+ {
+  "name": "QCS Group",
+  "categories": [ "org" ],
+  "cert": "qcsgroup.au:443",
+  "domains": [
+    { "name": "qcsgroup.au" }
+  ]
+ },
+ {
+  "name": "Aurizon",
+  "categories": [ "org" ],
+  "cert": "aurizon.com.au:443",
+  "domains": [
+    { "name": "aurizon.com.au" }
+  ]
+ },
+ {
+  "name": "Queensland Rail",
+  "categories": [ "org" ],
+  "cert": "www.queenslandrail.com.au:443",
+  "domains": [
+    { "name": "queenslandrail.com.au" }
+  ]
+ },
+ {
+  "name": "RACQ",
+  "categories": [ "org" ],
+  "cert": "www.racq.com.au:443",
+  "domains": [
+    { "name": "racq.com.au" }
+  ]
+ },
+ {
+  "name": "Ramsay Health Care",
+  "categories": [ "org" ],
+  "cert": "www.ramsayhealth.com.au:443",
+  "domains": [
+    { "name": "ramsayhealth.com.au" }
+  ]
+ },
+ {
+  "name": "R-Group International",
+  "categories": [ "org" ],
+  "cert": "r-group.com.au:443",
+  "domains": [
+    { "name": "r-group.com.au" }
+  ]
+ },
+ {
+  "name": "ReadiiTel",
+  "categories": [ "org" ],
+  "cert": "readiitel.com.au:443",
+  "domains": [
+    { "name": "readiitel.com.au" }
+  ]
+ },
+ {
+  "name": "real world technology solutions",
+  "categories": [ "org" ],
+  "cert": "rwts.com.au:443",
+  "domains": [
+    { "name": "rwts.com.au" }
+  ]
+ },
+ {
+  "name": "realestate.com.au",
+  "categories": [ "top" ],
+  "cert": "www.realestate.com.au:443",
+  "domains": [
+   { "name": "realestate.com.au" }
+  ]
+ },
+ {
+  "name": "Australain Competition & Consumer Commission",
+  "categories": [ "top" ],
+  "cert": "www.accc.gov.au:443",
+  "domains": [
+   { "name": "accc.gov.au" }
+  ]
+ },
+ {
+  "name": "Australian Securities & Investments Commission",
+  "categories": [ "top" ],
+  "cert": "asic.gov.au:443",
+  "domains": [
+   { "name": "asic.gov.au" }
+  ]
+ },
+ {
+  "name": "Department of Climate Change, Energy, the Environment and Water",
+  "categories": [ "top" ],
+  "cert": "www.dcceew.gov.au:443",
+  "domains": [
+   { "name": "dcceew.gov.au" }
+  ]
+ },
+ {
+  "name": "WJ Partners",
+  "categories": [ "top" ],
+  "cert": "wjpartners.com.au:443",
+  "domains": [
+   { "name": "wjpartners.com.au" }
+  ]
+ },
+ {
+  "name": "The Advertiser",
+  "categories": [ "top" ],
+  "cert": "www.adelaidenow.com.au:443",
+  "domains": [
+   { "name": "adelaidenow.com.au" }
+  ]
+ },
+ {
+  "name": "Australia Post",
+  "categories": [ "top" ],
+  "cert": "auspost.com.au:443",
+  "domains": [
+   { "name": "auspost.com.au" }
+  ]
+ },
+ {
+  "name": "Western Australia Department of Education",
+  "categories": [ "top" ],
+  "cert": "www.education.wa.edu.au:443",
+  "domains": [
+   { "name": "education.wa.edu.au" }
+  ]
+ },
+ {
+  "name": "GoldNet",
+  "categories": [ "org" ],
+  "domains": [
+    { "name": "gold.net.au" }
+  ]
+ },
+ {
+  "name": "GPK Computers",
+  "categories": [ "org" ],
+  "cert": "www.gpkgroup.com.au:443",
+  "domains": [
+    { "name": "gpkgroup.com.au" }
+  ]
+ },
+ {
+  "name": "Reserve Bank of Australia",
+  "categories": [ "top" ],
+  "cert": "www.rba.gov.au:443",
+  "domains": [
+   { "name": "rba.gov.au" }
+  ]
+ },
+ {
+  "name": "Dicker Data",
+  "categories": [ "org" ],
+  "cert": "www.dickerdata.com.au:443",
+  "domains": [
+    { "name": "dickerdata.com.au" }
+  ]
+ },
+ {
+  "name": "Delion",
+  "categories": [ "org" ],
+  "cert": "www.delion.com.au:443",
+  "domains": [
+    { "name": "delion.com.au" }
+  ]
+ },
+ {
+  "name": "Data Express",
+  "categories": [ "org" ],
+  "cert": "www.dataexpress.net.au:443",
+  "domains": [
+    { "name": "dataexpress.net.au" }
+  ]
+ },
+ {
+  "name": "Ethan Group",
+  "categories": [ "org" ],
+  "cert": "ethan.global:443",
+  "domains": [
+    { "name": "ethan.global" }
+  ]
+ },
+ {
+  "name": "DC West",
+  "categories": [ "org" ],
+  "cert": "dcwest.net.au:443",
+  "domains": [
+    { "name": "dcwest.net.au" }
+  ]
+ },
+ {
+  "name": "Digital Pacific Australia",
+  "categories": [ "org" ],
+  "cert": "www.digitalpacific.com.au:443",
+  "domains": [
+    { "name": "digitalpacific.com.au" }
+  ]
+ },
+ {
+  "name": "Daraco IT Services",
+  "categories": [ "org" ],
+  "cert": "www.daraco.com.au:443",
+  "domains": [
+    { "name": "daraco.com.au" }
+  ]
+ },
+ {
+  "name": "Data Centre as a Service",
+  "categories": [ "org" ],
+  "cert": "dcaas.com.au:443",
+  "domains": [
+    { "name": "dcaas.com.au" }
+  ]
+ },
+ {
+  "name": "CNT Corp",
+  "categories": [ "org" ],
+  "cert": "www.cntcorp.com.au:443",
+  "domains": [
+    { "name": "cntcorp.com.au" }
+  ]
+ },
+ {
+  "name": "Beyond Blue",
+  "categories": [ "top" ],
+  "cert": "www.beyondblue.org.au:443",
+  "domains": [
+   { "name": "beyondblue.org.au" }
+  ]
+ },
+ {
+  "name": "Australian Institute of Health and Welfare",
+  "categories": [ "top" ],
+  "cert": "www.aihw.gov.au:443",
+  "domains": [
+   { "name": "aihw.gov.au" }
+  ]
+ },
+ {
+  "name": "Drive",
+  "categories": [ "top" ],
+  "cert": "www.drive.com.au:443",
+  "domains": [
+   { "name": "drive.com.au" }
+  ]
+ },
+ {
+  "name": "raisingchildren.net.au",
+  "categories": [ "top" ],
+  "cert": "raisingchildren.net.au:443",
+  "domains": [
+   { "name": "raisingchildren.net.au" }
+  ]
+ },
+ {
+  "name": "harbour isp",
+  "categories": [ "isp" ],
+  "cert": "harbourisp.com.au:443",
+  "domains": [
+    { "name": "harbourisp.com.au" }
+  ]
+ },
+ {
+  "name": "iseek",
+  "categories": [ "org" ],
+  "cert": "iseek.com.au:443",
+  "domains": [
+    { "name": "iseek.com.au" }
+  ]
+ },
+ {
+  "name": "Heritage Bank",
+  "categories": [ "org" ],
+  "cert": "www.heritage.com.au:443",
+  "domains": [
+    { "name": "heritage.com.au" }
+  ]
+ },
+ {
+  "name": "Therapeutic Goods Administration",
+  "categories": [ "top" ],
+  "cert": "www.tga.gov.au:443",
+  "domains": [
+   { "name": "tga.gov.au" }
+  ]
+ },
+ {
+  "name": "Fox Sports Australia",
+  "categories": [ "top" ],
+  "cert": "www.foxsports.com.au:443",
+  "domains": [
+   { "name": "foxsports.com.au" }
+  ]
+ },
+ {
+  "name": "Domain",
+  "categories": [ "top" ],
+  "cert": "www.domain.com.au:443",
+  "domains": [
+   { "name": "domain.com.au" }
+  ]
+ },
+ {
+  "name": "Broadband Solutions",
+  "categories": [ "org" ],
+  "cert": "broadbandsolutions.com.au:443",
+  "domains": [
+    { "name": "broadbandsolutions.com.au" }
+  ]
+ },
+ {
+  "name": "Canon Australia",
+  "categories": [ "org" ],
+  "cert": "www.canon.com.au:443",
+  "domains": [
+   { "name": "canon.com.au" }
+  ]
+ },
+ {
+  "name": "Caznet",
+  "categories": [ "org" ],
+  "cert": "caznet.com.au:443",
+  "domains": [
+    { "name": "caznet.com.au" }
+  ]
+ },
+ {
+  "name": "CEnet",
+  "categories": [ "org" ],
+  "cert": "cenet.catholic.edu.au:443",
+  "domains": [
+    { "name": "cenet.catholic.edu.au" }
+  ]
+ },
+ {
+  "name": "Centra Networks",
+  "categories": [ "org" ],
+  "cert": "www.centra.com.au:443",
+  "domains": [
+    { "name": "centra.com.au" }
+  ]
+ },
+ {
+  "name": "Centorrino Technologies",
+  "categories": [ "org" ],
+  "cert": "www.ct.com.au:443",
+  "domains": [
+    { "name": "ct.com.au" }
+  ]
+ },
+ {
+  "name": "Aussie Broadband",
+  "categories": [ "isp" ],
+  "cert": "www.aussiebroadband.com.au:443",
+  "domains": [
+   { "name": "aussiebroadband.com.au" }
+  ],
+  "endpoints": [
+   { "host": "ntp-adl.aussiebroadband.com.au:123" },
+   { "host": "ntp-bne.aussiebroadband.com.au:123" },
+   { "host": "ntp-mel.aussiebroadband.com.au:123" },
+   { "host": "ntp-per.aussiebroadband.com.au:123" },
+   { "host": "ntp-syd.aussiebroadband.com.au:123" }
+  ]
+ },
+ {
+  "name": "Exetel",
+  "categories": [ "isp" ],
+  "cert": "www.exetel.com.au:443",
+  "domains": [
+   { "name": "exetel.com.au" }
+  ]
+ },
+ {
+  "name": "Internode",
+  "categories": [ "isp" ],
+  "cert": "www.internode.on.net:443",
+  "domains": [
+   { "name": "on.net" },
+   { "name": "internode.on.net" }
+  ]
+ },
+ {
+  "name": "Opticomm",
+  "categories": [ "org" ],
+  "cert": "www.opticomm.com.au:443",
+  "domains": [
+    { "name": "opticomm.com.au" }
+  ]
+ },
+ {
+  "name": "Optus",
+  "categories": [ "isp" ],
+  "cert": "www.optus.com.au:443",
+  "domains": [
+   { "name": "optus.com.au" },
+   { "name": "optusnet.com.au" },
+   { "name": "optus.net" },
+   { "name": "mel.optus.net" }
+  ]
+ },
+ {
+  "name": "Spintel",
+  "categories": [ "isp" ],
+  "cert": "www.spintel.net.au:443",
+  "domains": [
+    { "name": "spintel.net.au" }
+  ],
+  "endpoints": [
+   { "host": "203.23.237.200:123" }
+  ]
+ },
+ {
+  "name": "WebVault",
+  "categories": [ "org" ],
+  "cert": "webvault.com.au:443",
+  "domains": [
+    { "name": "webvault.com.au" }
+  ]
+ },
+ {
+  "name": "Wagner Corporation",
+  "categories": [ "org" ],
+  "cert": "www.wagnercorporation.com.au:443",
+  "domains": [
+    { "name": "wagnercorporation.com.au" }
+  ]
+ },
+ {
+  "name": "Westpac",
+  "categories": [ "org" ],
+  "cert": "www.westpac.com.au:443",
+  "domains": [
+    { "name": "westpac.com.au" }
+  ]
+ },
+ {
+  "name": "Wireline",
+  "categories": [ "org" ],
+  "cert": "wireline.com.au:443",
+  "domains": [
+    { "name": "wireline.com.au" }
+  ]
+ },
+ {
+  "name": "United IP",
+  "categories": [ "org" ],
+  "cert": "unitedip.net.au:443",
+  "domains": [
+    { "name": "unitedip.net.au" }
+  ]
+ },
+ {
+  "name": "URL Networks",
+  "categories": [ "org" ],
+  "cert": "url.net.au:443",
+  "domains": [
+    { "name": "url.net.au" }
+  ]
+ },
+ {
+  "name": "Valve Networks",
+  "categories": [ "isp" ],
+  "cert": "valvenetworks.com.au:443",
+  "domains": [
+    { "name": "valvenetworks.com.au" }
+  ]
+ },
+ {
+  "name": "Vernet",
+  "categories": [ "org" ],
+  "cert": "www.vernet.com.au:443",
+  "domains": [
+    { "name": "vernet.com.au" }
+  ]
+ },
+ {
+  "name": "Vine Networks",
+  "categories": [ "isp" ],
+  "cert": "vinenetworks.com.au:443",
+  "domains": [
+    { "name": "vinenetworks.com.au" }
+  ]
+ },
+ {
+  "name": "Virtutel",
+  "categories": [ "org" ],
+  "cert": "www.virtutel.com.au:443",
+  "domains": [
+    { "name": "virtutel.com.au" }
+  ]
+ },
+ {
+  "name": "VMvault",
+  "categories": [ "org" ],
+  "cert": "vmvault.com.au:443",
+  "domains": [
+    { "name": "vmvault.com.au" }
+  ]
+ },
+ {
+  "name": "Somerville Group",
+  "categories": [ "org" ],
+  "cert": "store.somerville.com.au:443",
+  "domains": [
+    { "name": "somerville.com.au" }
+  ]
+ },
+ {
+  "name": "TI Systems",
+  "categories": [ "org" ],
+  "cert": "tisystems.com.au:443",
+  "domains": [
+    { "name": "tisystems.com.au" }
+  ]
+ },
+ {
+  "name": "Vodafone Australia",
+  "categories": [ "org" ],
+  "cert": "www.vodafone.com.au:443",
+  "domains": [
+    { "name": "vodafone.com.au" }
+  ]
+ },
+ {
+  "name": "felix mobile",
+  "categories": [ "org" ],
+  "cert": "felixmobile.com.au:443",
+  "domains": [
+    { "name": "felixmobile.com.au" }
+  ]
+ },
+ {
+  "name": "Lebara",
+  "categories": [ "org" ],
+  "cert": "www.lebara.com.au:443",
+  "domains": [
+    { "name": "lebara.com.au" }
+  ]
+ },
+ {
+  "name": "TPG Telecom",
+  "categories": [ "isp" ],
+  "cert": "www.tpgtelecom.com.au:443",
+  "domains": [
+    { "name": "tpgtelecom.com.au" }
+  ]
+ },
+ {
+  "name": "TPG",
+  "categories": [ "isp" ],
+  "cert": "www.tpg.com.au:443",
+  "domains": [
+   { "name": "tpg.com.au" }
+  ]
+ },
+ {
+  "name": "Telstra",
+  "categories": [ "isp" ],
+  "cert": "www.telstra.com.au:443",
+  "domains": [
+   { "name": "ntp.telstra.net" },
+   { "name": "telstra.com.au" }
+  ]
+ },
+ {
+  "name": "Vocus",
+  "categories": [ "isp" ],
+  "cert": "www.vocus.com.au:443",
+  "domains": [
+   { "name": "vocus.com.au" },
+   { "name": "vocus.network" },
+   { "name": "vic.vocus.network" }
+  ]
+ },
+ {
+  "name": "iPrimus",
+  "categories": [ "isp" ],
+  "cert": "www.iprimus.com.au:443",
+  "domains": [
+   { "name": "iprimus.com.au" }
+  ]
+ },
+ {
+  "name": "iiNet",
+  "categories": [ "isp" ],
+  "cert": "www.iinet.net.au:443",
+  "domains": [
+   { "name": "iinet.net.au" },
+   { "name": "ii.net" }
+  ]
+ },
+ {
+  "name": "fluccs",
+  "categories": [ "org" ],
+  "cert": "www.fluccs.com.au:443",
+  "domains": [
+    { "name": "fluccs.com.au" }
+  ]
+ },
+ {
+  "name": "Flintel",
+  "categories": [ "org" ],
+  "cert": "flintel.com.au:443",
+  "domains": [
+    { "name": "flintel.com.au" }
+  ]
+ },
+ {
+  "name": "FireNet",
+  "categories": [ "isp" ],
+  "cert": "firenet.com.au:443",
+  "domains": [
+    { "name": "firenet.com.au" }
+  ]
+ },
+ {
+  "name": "fibervision networks",
+  "categories": [ "isp" ],
+  "cert": "fibervision.com.au:443",
+  "domains": [
+    { "name": "fibervision.com.au" }
+  ]
+ },
+ {
+  "name": "1platform",
+  "categories": [ "org" ],
+  "cert": "virtualplatform.com.au:443",
+  "domains": [
+   { "name": "virtualplatform.com.au" }
+  ]
+ },
+ {
+  "name": "cre.ative IT",
+  "categories": [ "org" ],
+  "cert": "www.creativeit.net.au:443",
+  "domains": [
+    { "name": "creativeit.net.au" }
+  ]
+ },
+ {
+  "name": "CorpCloud",
+  "categories": [ "org" ],
+  "cert": "www.corpcloud.com.au:443",
+  "domains": [
+    { "name": "corpcloud.com.au" }
+  ]
+ },
+ {
+  "name": "5G Networks",
+  "categories": [ "org" ],
+  "cert": "5gnetworks.au:443",
+  "domains": [
+   { "name": "5gnetworks.au" }
+  ]
+ },
+ {
+  "name": "AARNet",
+  "categories": [ "org" ],
+  "cert": "www.aarnet.edu.au:443",
+  "domains": [
+   { "name": "aarnet.edu.au" }
+  ]
+ },
+ {
+  "name": "AC3",
+  "categories": [ "org" ],
+  "cert": "ac3.com.au:443",
+  "domains": [
+   { "name": "ac3.com.au" }
+  ]
+ },
+ {
+  "name": "Acurus Networks",
+  "categories": [ "org" ],
+  "cert": "acurus.com.au:443",
+  "domains": [
+   { "name": "acurus.com.au" }
+  ]
+ },
+ {
+  "name": "APCS",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "apcs.com.au" }
+  ]
+ },
+ {
+  "name": "ASE IT Networks",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "aseit.com.au" }
+  ]
+ },
+ {
+  "name": "AUSGRID",
+  "categories": [ "org" ],
+  "cert": "www.ausgrid.com.au:443",
+  "domains": [
+   { "name": "ausgrid.com.au" }
+  ]
+ },
+ {
+  "name": "AVCOMM",
+  "categories": [ "org" ],
+  "cert": "avcomm.com.au:443",
+  "domains": [
+   { "name": "avcomm.com.au" }
+  ]
+ },
+ {
+  "name": "Aus IT Services",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "aus-it.com.au" }
+  ]
+ },
+ {
+  "name": "Australia Online",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "australiaonline.net.au" }
+  ]
+ },
+ {
+  "name": "BitWave Networks",
+  "categories": [ "org" ],
+  "cert": "bitwave.com.au:443",
+  "domains": [
+   { "name": "bitwave.com.au" }
+  ]
+ },
+ {
+  "name": "BluePackets",
+  "categories": [ "org" ],
+  "cert": "www.bluepackets.com.au:443",
+  "domains": [
+    { "name": "bluepackets.com.au" }
+  ]
+ },
+ {
+  "name": "Christie Networks",
+  "categories": [ "org" ],
+  "cert": "christienetworks.com.au:443",
+  "domains": [
+    { "name": "christienetworks.com.au" }
+  ]
+ },
+ {
+  "name": "Comvergence",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "comvergence.com.au" }
+  ]
+ },
+ {
+  "name": "Conexim Australia Pty Ltd",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "conexim.com.au" }
+  ]
+ },
+ {
+  "name": "Cynergic",
+  "categories": [ "org" ],
+  "cert": "cynergic.com.au:443",
+  "domains": [
+   { "name": "cynergic.com.au" }
+  ]
+ },
+ {
+  "name": "Crucial Paradigm (Australia)",
+  "categories": [ "org" ],
+  "cert": "www.crucial.com.au:443",
+  "domains": [
+    { "name": "crucial.com.au" }
+  ]
+ },
+ {
+  "name": "CWNet Australia",
+  "categories": [ "org" ],
+  "cert": "cwnet.com.au:443",
+  "domains": [
+    { "name": "cwnet.com.au" }
+  ]
+ },
+ {
+  "name": "Dedicated Servers",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "dedicatedservers.net.au" }
+  ]
+ },
+ {
+  "name": "ECN Internet",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "ecn.net.au" }
+  ]
+ },
+ {
+  "name": "EscapeNet",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "esc.net.au" }
+  ]
+ },
+ {
+  "name": "FirstFocus",
+  "categories": [ "org" ],
+  "cert": "www.firstfocus.com.au:443",
+  "domains": [
+    { "name": "firstfocus.com.au" }
+  ]
+ },
+ {
+  "name": "Encoo Communications",
+  "categories": [ "org" ],
+  "cert": "www.encoo.com.au:443",
+  "domains": [
+    { "name": "encoo.com.au" }
+  ]
+ },
+ {
+  "name": "Enablis",
+  "categories": [ "org" ],
+  "cert": "www.enablis.com.au:443",
+  "domains": [
+    { "name": "enablis.com.au" }
+  ]
+ },
+ {
+  "name": "Capti Networks",
+  "categories": [ "org" ],
+  "cert": "capti.com.au:443",
+  "domains": [
+    { "name": "capti.com.au" }
+  ]
+ },
+ {
+  "name": "Falcore",
+  "categories": [ "org" ],
+  "cert": "falcore.com.au:443",
+  "domains": [
+    { "name": "falcore.com.au" }
+  ]
+ },
+ {
+  "name": "fastrack technology",
+  "categories": [ "org" ],
+  "cert": "www.fastrack.technology:443",
+  "domains": [
+    { "name": "fastrack.technology" }
+  ]
+ },
+ {
+  "name": "FetchTV",
+  "categories": [ "org" ],
+  "cert": "www.fetchtv.com.au:443",
+  "domains": [
+   { "name": "fetchtv.com.au" }
+  ],
+  "endpoints": [
+   { "host": "0.fetchtv.pool.ntp.org:123" }
+  ]
+ },
+ {
+  "name": "GoHosting",
+  "categories": [ "org" ],
+  "cert": "gohosting.com.au:443",
+  "domains": [
+   { "name": "gohosting.com.au" }
+  ]
+ },
+ {
+  "name": "Host Tel",
+  "categories": [ "org" ],
+  "cert": "hosttel.com.au:443",
+  "domains": [
+   { "name": "hosttel.com.au" }
+  ]
+ },
+ {
+  "name": "Lumity Technology Solutions",
+  "categories": [ "org" ],
+  "cert": "lumity.com.au:443",
+  "domains": [
+    { "name": "lumity.com.au" }
+  ]
+ },
+ {
+  "name": "Leaptel",
+  "categories": [ "isp" ],
+  "cert": "leaptel.com.au:443",
+  "domains": [
+    { "name": "leaptel.com.au" }
+  ]
+ },
+ {
+  "name": "efex",
+  "categories": [ "org" ],
+  "cert": "www.efex.com.au:443",
+  "domains": [
+    { "name": "efex.com.au" }
+  ]
+ },
+ {
+  "name": "kinetix",
+  "categories": [ "isp" ],
+  "cert": "kinetix.net.au:443",
+  "domains": [
+    { "name": "kinetix.net.au" }
+  ]
+ },
+ {
+  "name": "Connect Tel Australia",
+  "categories": [ "org" ],
+  "cert": "www.connecttel.com.au:443",
+  "domains": [
+    { "name": "connecttel.com.au" }
+  ]
+ },
+ {
+  "name": "JEM",
+  "categories": [ "org" ],
+  "cert": "www.jem.com.au:443",
+  "domains": [
+    { "name": "jem.com.au" }
+  ]
+ },
+ {
+  "name": "lumea",
+  "categories": [ "org" ],
+  "cert": "www.lumea.com.au:443",
+  "domains": [
+    { "name": "lumea.com.au" }
+  ]
+ },
+ {
+  "name": "OCCOM",
+  "categories": [ "isp" ],
+  "cert": "occom.com.au:443",
+  "domains": [
+    { "name": "occom.com.au" }
+  ]
+ },
+ {
+  "name": "mdg it",
+  "categories": [ "org" ],
+  "cert": "www.mdg-it.com.au:443",
+  "domains": [
+    { "name": "mdg-it.com.au" }
+  ]
+ },
+ {
+  "name": "Mammoth Cloud",
+  "categories": [ "org" ],
+  "cert": "www.mammoth.com.au:443",
+  "domains": [
+    { "name": "mammoth.com.au" }
+  ]
+ },
+ {
+  "name": "MarchNet",
+  "categories": [ "org" ],
+  "cert": "marchnet.com.au:443",
+  "domains": [
+    { "name": "marchnet.com.au" }
+  ]
+ },
+ {
+  "name": "Mater",
+  "categories": [ "org" ],
+  "cert": "www.mater.org.au:443",
+  "domains": [
+    { "name": "mater.org.au" }
+  ]
+ },
+ {
+  "name": "Melbourne ISP",
+  "categories": [ "isp" ],
+  "cert": "melbourneisp.com:443",
+  "domains": [
+    { "name": "melbourneisp.com" }
+  ]
+ },
+ {
+  "name": "ME Bank",
+  "categories": [ "org" ],
+  "cert": "www.mebank.com.au:443",
+  "domains": [
+    { "name": "mebank.com.au" }
+  ]
+ },
+ {
+  "name": "Mitsubishi Motors Australia",
+  "categories": [ "org" ],
+  "cert": "www.mitsubish-motors.com.au:443",
+  "domains": [
+    { "name": "mitsubishi-motors.com.au" }
+  ]
+ },
+ {
+  "name": "MyNet",
+  "categories": [ "org" ],
+  "cert": "www.mynet.au:443",
+  "domains": [
+    { "name": "mynet.au" }
+  ]
+ },
+ {
+  "name": "NAB Investment Holdings",
+  "categories": [ "org" ],
+  "cert": "nabih.com.au:443",
+  "domains": [
+    { "name": "nabih.com.au" }
+  ]
+ },
+ {
+  "name": "John Holland",
+  "categories": [ "org" ],
+  "cert": "johnholland.com.au:443",
+  "domains": [
+    { "name": "johnholland.com.au" }
+  ]
+ },
+ {
+  "name": "Latrobe Community Health Service",
+  "categories": [ "org" ],
+  "cert": "www.lchs.com.au:443",
+  "domains": [
+    { "name": "lchs.com.au" }
+  ]
+ },
+ {
+  "name": "Launtel",
+  "categories": [ "isp" ],
+  "cert": "www.launtel.net.au:443",
+  "domains": [
+    { "name": "launtel.net.au" }
+  ]
+ },
+ {
+  "name": "Infinite Networks",
+  "categories": [ "org" ],
+  "cert": "www.infinite.net.au:443",
+  "domains": [
+   { "name": "infinite.net.au" }
+  ]
+ },
+ {
+  "name": "e-vision",
+  "categories": [ "org" ],
+  "cert": "e-vision.com.au:443",
+  "domains": [
+    { "name": "e-vision.com.au" }
+  ]
+ },
+ {
+  "name": "CITEC",
+  "categories": [ "org" ],
+  "cert": "services.citec.com.au:443",
+  "domains": [
+    { "name": "citec.com.au" },
+    { "name": "services.citec.com.au" }
+  ]
+ },
+ {
+  "name": "City Communications",
+  "categories": [ "org" ],
+  "cert": "citycomms.com.au:443",
+  "domains": [
+    { "name": "citycomms.com.au" }
+  ]
+ },
+ {
+  "name": "iag",
+  "categories": [ "org" ],
+  "cert": "www.iag.com.au:443",
+  "domains": [
+    { "name": "iag.com.au" }
+  ]
+ },
+ {
+  "name": "interphone",
+  "categories": [ "isp" ],
+  "cert": "www.interphone.com.au:443",
+  "domains": [
+    { "name": "interphone.com.au" }
+  ]
+ },
+ {
+  "name": "IPTelco",
+  "categories": [ "org" ],
+  "cert": "iptelco.com.au:443",
+  "domains": [
+    { "name": "iptelco.com.au" }
+  ]
+ },
+ {
+  "name": "IPNG",
+  "categories": [ "org" ],
+  "cert": "ipng.com.au:443",
+  "domains": [
+    { "name": "ipng.com.au" }
+  ]
+ },
+ {
+  "name": "iQNet",
+  "categories": [ "org" ],
+  "cert": "iqnet.com.au:443",
+  "domains": [
+    { "name": "iqnet.com.au" }
+  ]
+ },
+ {
+  "name": "Terrerent",
+  "categories": [ "org" ],
+  "cert": "tesserent.com:443",
+  "domains": [
+    { "name": "tesserent.com" }
+  ]
+ },
+ {
+  "name": "Coates Hire",
+  "categories": [ "org" ],
+  "cert": "www.coates.com.au:443",
+  "domains": [
+    { "name": "coates.com.au" }
+  ]
+ },
+ {
+  "name": "CommSol",
+  "categories": [ "org" ],
+  "cert": "commsol.net.au:443",
+  "domains": [
+    { "name": "commsol.net.au" }
+  ]
+ },
+ {
+  "name": "Transport for NSW",
+  "categories": [ "org" ],
+  "cert": "www.transport.nsw.gov.au:443",
+  "domains": [
+    { "name": "transport.nsw.gov.au" }
+  ]
+ },
+ {
+  "name": "IP Exchange",
+  "categories": [ "org" ],
+  "cert": "ipexchange.com.au:443",
+  "domains": [
+    { "name": "ipexchange.com.au" }
+  ]
+ },
+ {
+  "name": "TAFE NSW",
+  "categories": [ "org" ],
+  "cert": "www.tafensw.edu.au:443",
+  "domains": [
+    { "name": "tafensw.edu.au" }
+  ]
+ },
+ {
+  "name": "Talk To You Soon",
+  "categories": [ "org" ],
+  "cert": "ttys.com.au:443",
+  "domains": [
+    { "name": "ttys.com.au" }
+  ]
+ },
+ {
+  "name": "TechPath",
+  "categories": [ "org" ],
+  "cert": "www.techpath.com.au:443",
+  "domains": [
+    { "name": "techpath.com.au" }
+  ]
+ },
+ {
+  "name": "Telair",
+  "categories": [ "isp" ],
+  "cert": "www.telair.com.au:443",
+  "domains": [
+    { "name": "telair.com.au" }
+  ]
+ },
+ {
+  "name": "Telco in a Box",
+  "categories": [ "org" ],
+  "cert": "www.telcoinabox.com.au:443",
+  "domains": [
+    { "name": "telcoinabox.com.au" }
+  ]
+ },
+ {
+  "name": "tello",
+  "categories": [ "isp" ],
+  "cert": "www.tello.com.au:443",
+  "domains": [
+    { "name": "tello.com.au" }
+  ]
+ },
+ {
+  "name": "The Missing Link",
+  "categories": [ "org" ],
+  "cert": "www.themissinglink.com.au:443",
+  "domains": [
+    { "name": "themissinglink.com.au" }
+  ]
+ },
+ {
+  "name": "Screwloose IT Solutions",
+  "categories": [ "org" ],
+  "cert": "screwlooseit.com.au:443",
+  "domains": [
+    { "name": "screwloose.com.au" }
+  ]
+ },
+ {
+  "name": "Sensor Dynamics",
+  "categories": [ "org" ],
+  "cert": "sensordynamics.com.au:443",
+  "domains": [
+    { "name": "sensordynamics.com.au" }
+  ]
+ },
+ {
+  "name": "Sentrian",
+  "categories": [ "org" ],
+  "cert": "www.sentrian.com.au:443",
+  "domains": [
+    { "name": "sentrian.com.au" }
+  ]
+ },
+ {
+  "name": "Servers Australia",
+  "categories": [ "org" ],
+  "cert": "www.serversaustralia.com.au:443",
+  "domains": [
+    { "name": "serversaustralia.com.au" }
+  ]
+ },
+ {
+  "name": "Cloud Servers Australia",
+  "categories": [ "org" ],
+  "cert": "www.cloudserversaustralia.com.au:443",
+  "domains": [
+    { "name": "cloudserversaustralia.com.au" }
+  ]
+ },
+ {
+  "name": "Cloud365 Australia",
+  "categories": [ "org" ],
+  "cert": "cloud365.com.au:443",
+  "domains": [
+    { "name": "cloud365.com.au" }
+  ]
+ },
+ {
+  "name": "Interconnect Networks",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "rbe.net.au" }
+  ]
+ },
+ {
+  "name": "ConnektNet",
+  "categories": [ "org" ],
+  "cert": "connektnet.com.au:443",
+  "domains": [
+    { "name": "connektnet.com.au" }
+  ]
+ },
+ {
+  "name": "Internet Association of Australia",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "asn.au" },
+   { "name": "waia.asn.au" },
+   { "name": "internet.asn.au" }
+  ]
+ },
+ {
+  "name": "ICTouch",
+  "categories": [ "org" ],
+  "cert": "www.ictouch.com.au:443",
+  "domains": [
+    { "name": "ictouch.com.au" }
+  ]
+ },
+ {
+  "name": "Host Networks",
+  "categories": [ "org" ],
+  "cert": "hostnetworks.com.au:443",
+  "domains": [
+    { "name": "hostnetworks.com.au" }
+  ]
+ },
+ {
+  "name": "Host Universal",
+  "categories": [ "org" ],
+  "cert": "hostuniversal.com.au:443",
+  "domains": [
+    { "name": "hostuniversal.com.au" }
+  ]
+ },
+ {
+  "name": "hostaway",
+  "categories": [ "org" ],
+  "cert": "www.hostaway.net.au:443",
+  "domains": [
+    { "name": "hostaway.net.au" }
+  ]
+ },
+ {
+  "name": "HostedNetwork",
+  "categories": [ "org" ],
+  "cert": "www.hostednetwork.com.au:443",
+  "domains": [
+    { "name": "hostednetwork.com.au" }
+  ]
+ },
+ {
+  "name": "Hunter Water",
+  "categories": [ "org" ],
+  "cert": "www.hunterwater.com.au:443",
+  "domains": [
+    { "name": "hunterwater.com.au" }
+  ]
+ },
+ {
+  "name": "hyperwave",
+  "categories": [ "isp" ],
+  "cert": "www.hyperwave.com.au:443",
+  "domains": [
+    { "name": "hyperwave.com.au" }
+  ]
+ },
+ {
+  "name": "Canary Technology Solutions",
+  "categories": [ "org" ],
+  "cert": "www.canaryit.com.au:443",
+  "domains": [
+    { "name": "canaryit.com.au" }
+  ]
+ },
+ {
+  "name": "gigafy",
+  "categories": [ "org" ],
+  "cert": "gigafy.com.au:443",
+  "domains": [
+    { "name": "gigafy.com.au" }
+  ]
+ },
+ {
+  "name": "gigawave",
+  "categories": [ "isp" ],
+  "cert": "gigawave.com.au:443",
+  "domains": [
+    { "name": "gigawave.com.au" }
+  ]
+ },
+ {
+  "name": "gippswifi",
+  "categories": [ "org" ],
+  "cert": "www.gippswifi.com.au:443",
+  "domains": [
+    { "name": "gippswifi.com.au" }
+  ]
+ },
+ {
+  "name": "Bandwidth Holdings",
+  "categories": [ "org" ],
+  "cert": "bwholdings.com.au:443",
+  "domains": [
+    { "name": "bwholdings.com.au" }
+  ]
+ },
+ {
+  "name": "Bendigo Telco",
+  "categories": [ "org" ],
+  "cert": "www.bendigotelco.com.au:443",
+  "domains": [
+    { "name": "bendigotelco.com.au" }
+  ]
+ },
+ {
+  "name": "KERNWIFI",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "kernwifi.com.au" }
+  ]
+ },
+ {
+  "name": "RemoteISP",
+  "categories": [ "isp" ],
+  "cert": "remoteisp.com.au:443",
+  "domains": [
+    { "name": "remoteisp.com.au" }
+  ]
+ },
+ {
+  "name": "Reseau",
+  "categories": [ "org" ],
+  "cert": "reseau.com.au:443",
+  "domains": [
+    { "name": "reseau.com.au" }
+  ]
+ },
+ {
+  "name": "Rising Sun Pictures",
+  "categories": [ "org" ],
+  "cert": "www.rsp.com.au:443",
+  "domains": [
+    { "name": "rsp.com.au" }
+  ]
+ },
+ {
+  "name": "Pentanet",
+  "categories": [ "isp" ],
+  "cert": "pentanet.com.au:443",
+  "domains": [
+    { "name": "pentanet.com.au" }
+  ]
+ },
+ {
+  "name": "pingco",
+  "categories": [ "org" ],
+  "cert": "pingco.com.au:443",
+  "domains": [
+    { "name": "pingco.com.au" }
+  ]
+ },
+ {
+  "name": "Pivit",
+  "categories": [ "org" ],
+  "cert": "pivit.com.au:443",
+  "domains": [
+    { "name": "pivit.com.au" }
+  ]
+ },
+ {
+  "name": "Premier Technology Solutions",
+  "categories": [ "org" ],
+  "cert": "www.premiertech.com.au:443",
+  "domains": [
+    { "name": "premiertech.com.au" }
+  ]
+ },
+ {
+  "name": "Prodigy Communications",
+  "categories": [ "org" ],
+  "cert": "www.prodigy.com.au:443",
+  "domains": [
+    { "name": "prodigy.com.au" }
+  ]
+ },
+ {
+  "name": "On Q Communications",
+  "categories": [ "isp" ],
+  "cert": "onq.com.au:443",
+  "domains": [
+    { "name": "onq.com.au" }
+  ]
+ },
+ {
+  "name": "Clearstream Broadband",
+  "categories": [ "org" ],
+  "cert": "clearstream.com.au:443",
+  "domains": [
+    { "name": "clearstream.com.au" }
+  ]
+ },
+ {
+  "name": "OntheNet",
+  "categories": [ "isp" ],
+  "cert": "www.onthenet.com.au:443",
+  "domains": [
+    { "name": "onthenet.com.au" }
+  ]
+ },
+ {
+  "name": "Optitel",
+  "categories": [ "org" ],
+  "cert": "www.optitel.com.au:443",
+  "domains": [
+    { "name": "optitel.com.au" }
+  ]
+ },
+ {
+  "name": "OvertheWire",
+  "categories": [ "org" ],
+  "cert": "overthewire.com.au:443",
+  "domains": [
+    { "name": "overthewire.com.au" }
+  ]
+ },
+ {
+  "name": "Ozot",
+  "categories": [ "isp"],
+  "cert": "ozot.com.au:443",
+  "domains": [
+    { "name": "ozot.com.au" }
+  ]
+ },
+ {
+  "name": "NEC",
+  "categories": [ "org" ],
+  "cert": "www.nec.com.au:443",
+  "domains": [
+    { "name": "nec.com.au" }
+  ]
+ },
+ {
+  "name": "net360",
+  "categories": [ "org" ],
+  "cert": "net360.com.au:443",
+  "domains": [
+    { "name": "net360.com.au" }
+  ]
+ },
+ {
+  "name": "netier",
+  "categories": [ "org" ],
+  "cert": "www.netier.com.au:443",
+  "domains": [
+    { "name": "netier.com.au" }
+  ]
+ },
+ {
+  "name": "Newcastle Connect",
+  "categories": [ "org" ],
+  "cert": "newcastleconnect.com.au:443",
+  "domains": [
+    { "name": "newcastleconnect.com.au" }
+  ]
+ },
+ {
+  "name": "nexthop",
+  "categories": [ "org" ],
+  "cert": "www.nexthop.com.au:443",
+  "domains": [
+    { "name": "nexthop.com.au" }
+  ]
+ },
+ {
+  "name": "Nexon",
+  "categories": [ "org" ],
+  "cert": "nexon.com.au:443",
+  "domains": [
+   { "name": "nexon.com.au" }
+  ]
+ },
+ {
+  "name": "Shine Lawyers",
+  "categories": [ "org" ],
+  "cert": "www.shine.com.au:443",
+  "domains": [
+    { "name": "shine.com.au" }
+  ]
+ },
+ {
+  "name": "Simm IT",
+  "categories": [ "org" ],
+  "cert": "simmit.com.au:443",
+  "domains": [
+    { "name": "simmit.com.au" }
+  ]
+ },
+ {
+  "name": "iperium",
+  "categories": [ "org" ],
+  "cert": "www.imperium.com.au:443",
+  "domains": [
+    { "name": "imperium.com.au" }
+  ]
+ },
+ {
+  "name": "Skymesh",
+  "categories": [ "isp" ],
+  "cert": "www.skymesh.net.au:443",
+  "domains": [
+    { "name": "skymesh.net.au" }
+  ]
+ },
+ {
+  "name": "Solution One",
+  "categories": [ "org" ],
+  "cert": "solution-one.com.au:443",
+  "domains": [
+    { "name": "solution-one.com.au" }
+  ]
+ },
+ {
+  "name": "Southern Phone",
+  "categories": [ "org" ],
+  "cert": "www.southernphone.com.au:443",
+  "domains": [
+    { "name": "southernphone.com.au" }
+  ]
+ },
+ {
+  "name": "Spectrum Networks",
+  "categories": [ "org" ],
+  "cert": "spectrum.com.au:443",
+  "domains": [
+   { "name": "spectrum.com.au" }
+  ]
+ },
+ {
+  "name": "Xenex Systems",
+  "categories": [ "org" ],
+  "cert": "xenexsystems.com.au:443",
+  "domains": [
+    { "name": "xenexsystems.com.au" }
+  ]
+ },
+ {
+  "name": "XYZ Telecom",
+  "categories": [ "org" ],
+  "cert": "www.xyztelecom.com.au:443",
+  "domains": [
+    { "name": "xyztelecom.com.au" }
+  ]
+ },
+ {
+  "name": "Yarra City Council",
+  "categories": [ "org" ],
+  "cert": "www.yarracity.vic.gov.au:443",
+  "domains": [
+    { "name": "yarracity.vic.gov.au" }
+  ]
+ },
+ {
+  "name": "YourDC",
+  "categories": [ "org" ],
+  "cert": "yourdc.com.au:443",
+  "domains": [
+    { "name": "yourdc.com.au" }
+  ]
+ },
+ {
+  "name": "yurika",
+  "categories": [ "org" ],
+  "cert": "www.yurika.com.au:443",
+  "domains": [
+    { "name": "yurika.com.au" }
+  ]
+ },
+ {
+  "name": "Web in a Box",
+  "categories": [ "org" ],
+  "cert": "www.webinabox.net.au:443",
+  "domains": [
+   { "name": "webinabox.net.au" }
+  ]
+ },
+ {
+  "name": "Connected Australia",
+  "categories": [ "org" ],
+  "cert": "www.connectedoz.com.au:443",
+  "domains": [
+    { "name": "connectedoz.com.au" }
+  ]
+ },
+ {
+  "name": "connect.com.au",
+  "categories": [ "org" ],
+  "domains": [
+   { "name": "connect.com.au" },
+   { "name": "mel.connect.com.au" }
+  ]
+ },
+ {
+  "name": "syd4gps0.syd.ops.aspac.uu.net",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "syd4gps0.syd.ops.aspac.uu.net:123" }
+  ]
+ },
+ {
+  "name": "vk6hgr.echidna.id.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "vk6hgr.echidna.id.au:123" }
+  ]
+ },
+ {
+  "name": "gw.vk6hgr.echidna.id.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "gw.vk6hgr.echidna.id.au:123" }
+  ]
+ },
+ {
+  "name": "ntp.2000cn.com.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "ntp.2000cn.com.au:123" }
+  ]
+ },
+ {
+  "name": "ntp.mazzanet.net.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "ntp.mazzanet.net.au:123" }
+  ]
+ },
+ {
+  "name": "ns1.git.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "ns1.git.au:123" }
+  ]
+ },
+ {
+  "name": "ntp.polyfoam.com.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "ntp.polyfoam.com.au:123" }
+  ]
+ },
+ {
+  "name": "smtp.juneks.com.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "smtp.juneks.com.au:123" }
+  ]
+ },
+ {
+  "name": "time.9r.com.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "time.9r.com.au:123" }
+  ]
+ },
+ {
+  "name": "time.esec.com.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "time.esec.com.au:123" }
+  ]
+ },
+ {
+  "name": "mel.clearnet.pw",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "mel.clearnet.pw:123" }
+  ]
+ },
+ {
+  "name": "ntp1.ds.network",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "ntp1.ds.network:123" }
+  ]
+ },
+ {
+  "name": "melbourne.kitten.im",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "melbourne.kitten.im:123" }
+  ]
+ },
+ {
+  "name": "pauseq4vntp1.datamossa.io",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "pauseq4vntp1.datamossa.io:123" }
+  ]
+ },
+ {
+  "name": "time.tfmcloud.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "time.tfmcloud.au:123" }
+  ]
+ },
+ {
+  "name": "svc4.eshorizon.net",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "svc4.eshorizon.net:123" }
+  ]
+ },
+ {
+  "name": "syd.clearnet.pw",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "syd.clearnet.pw:123" }
+  ]
+ },
+ {
+  "name": "mansfield.id.au",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "mansfield.id.au:123" }
+  ]
+ },
+ {
+  "name": "ap-southeast-2.clearnet.pw",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "ap-southeast-2.clearnet.pw:123" }
+  ]
+ },
+ {
+  "name": "ntp-sydney.gombadi.com",
+  "categories": [ "other" ],
+  "domains": [],
+  "endpoints": [
+   { "host": "ntp-sydney.gombadi.com:123" }
+  ]
+ }
+]

@@ -14,9 +14,13 @@ jobs:
           ref: ${{ github.ref }}
 
       - run: |
+          sudo apt-get update;
+          sudo apt-get upgrade -y;
           sudo apt-get install -y ntpsec-ntpdate;
           git config --global user.name "github-actions[bot]";
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com";
+          pip3 install --upgrade pip;
+          pip3 install dnspython pyopenssl;
           python3 scripts/generate.py;
           git add -A;
           git commit -am "update table";
