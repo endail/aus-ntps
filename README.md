@@ -1107,11 +1107,13 @@ iptables -t nat -I POSTROUTING -p udp -m udp --sport 123 -j MASQUERADE --to-port
 
 | endpoint | ip address | version | stratum | leap |
 | -------- | ---------- | ------- | ------- | ---- |
-|`ns1.murdoch.edu.au:123`|||||
-|`ns2.murdoch.edu.au:123`|||||
-|`ns3.murdoch.edu.au:123`|||||
-|`ns4.murdoch.edu.au:123`|||||
-|`ntp.murdoch.edu.au:123`|||||
+|`ns1.murdoch.edu.au:123`|134.115.4.33|4|s3|no-leap|
+|`ns2.murdoch.edu.au:123`|134.115.4.33|4|s3|no-leap|
+|`ns3.murdoch.edu.au:123`|134.115.4.34|4|s2|no-leap|
+|`ns4.murdoch.edu.au:123`|134.115.4.34|4|s2|no-leap|
+|`ntp.murdoch.edu.au:123`|134.115.4.33|4|s3|no-leap|
+|`prawn.murdoch.edu.au:123`|134.115.4.33|4|s3|no-leap|
+|`spider.murdoch.edu.au:123`|134.115.4.34|4|s2|no-leap|
 |`www.murdoch.edu.au:123`|||||
 
 ### MyNet
